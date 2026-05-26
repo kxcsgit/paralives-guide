@@ -17,7 +17,7 @@ export default function ContactPage() {
           please email us at:
         </p>
         <p>
-          <strong>contact@paralivesguide.wiki</strong>
+          <strong>contact@paraliveswiki.wiki</strong>
         </p>
 
         <h2>💬 Community</h2>
@@ -54,7 +54,7 @@ export default function ContactPage() {
         <h2>🐛 Report an Issue</h2>
         <p>
           Found an error in one of our guides? Please let us know by emailing{" "}
-          <strong>contact@paralivesguide.wiki</strong> with:
+          <strong>contact@paraliveswiki.wiki</strong> with:
         </p>
         <ul>
           <li>The page URL where you found the error</li>

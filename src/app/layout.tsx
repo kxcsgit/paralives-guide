@@ -4,15 +4,16 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Paralives Guide Wiki — Tips, Tricks & Walkthroughs",
+  metadataBase: new URL("https://www.paraliveswiki.wiki"),
+  title: "Paralives Wiki — Tips, Tricks & Walkthroughs",
   description:
-    "The ultimate fan-made guide wiki for Paralives — character creation, building, careers, relationships, and everything in between.",
+    "The ultimate fan-made wiki for Paralives — character creation, building, careers, relationships, and everything in between.",
   openGraph: {
-    title: "Paralives Guide Wiki — Tips, Tricks & Walkthroughs",
+    title: "Paralives Wiki — Tips, Tricks & Walkthroughs",
     description:
-      "The ultimate fan-made guide wiki for Paralives — character creation, building, careers, relationships, and everything in between.",
+      "The ultimate fan-made wiki for Paralives — character creation, building, careers, relationships, and everything in between.",
     type: "website",
-    siteName: "ParalivesGuide.wiki",
+    siteName: "ParalivesWiki.wiki",
   },
 };
 
@@ -40,8 +41,8 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              name: "ParalivesGuide.wiki",
-              url: "https://paralivesguide.wiki/",
+              name: "ParalivesWiki.wiki",
+              url: "https://www.paraliveswiki.wiki/",
               description:
                 "The ultimate fan-made guide wiki for Paralives — character creation, building, careers, relationships, and everything in between.",
             }),

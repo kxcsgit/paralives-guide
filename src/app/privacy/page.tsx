@@ -12,7 +12,7 @@ export default function PrivacyPage() {
 
         <p>
           ParalivesGuide.wiki (&quot;us&quot;, &quot;we&quot;, or &quot;our&quot;) operates the
-          paralivesguide.wiki website (the &quot;Service&quot;). This page informs you
+          paraliveswiki.wiki website (the &quot;Service&quot;). This page informs you
           of our policies regarding the collection, use, and disclosure of
           personal information when you use our Service.
         </p>
@@ -80,7 +80,7 @@ export default function PrivacyPage() {
         <h2>Contact Us</h2>
         <p>
           If you have any questions about this Privacy Policy, please contact us
-          at <strong>contact@paralivesguide.wiki</strong>.
+          at <strong>contact@paraliveswiki.wiki</strong>.
         </p>
       </div>
     </section>
