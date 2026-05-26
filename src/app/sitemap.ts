@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 import { articles } from '@/lib/articles'
 
-const BASE_URL = 'https://paralivesguide.vercel.app' // Update after deployment
+const BASE_URL = 'https://www.paraliveswiki.wiki'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const articlePages = articles.map((article) => ({

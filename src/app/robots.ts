@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next'
 
-const BASE_URL = 'https://paralivesguide.vercel.app' // Update after deployment
+const BASE_URL = 'https://www.paraliveswiki.wiki'
 
 export default function robots(): MetadataRoute.Robots {
   return {
