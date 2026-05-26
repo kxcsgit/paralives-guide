@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #fdf6ec;
+  --color-warm-brown: #5c4033;
+  --color-terracotta: #d4845f;
+  --color-soft-teal: #7dabab;
+  --color-golden: #e8c56d;
+  --color-card: #fffdf7;
+  --color-muted: #8b7e74;
+  --font-nunito: 'Nunito', system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-nunito);
+  background-color: var(--color-cream);
+  color: var(--color-warm-brown);
+}
+
+/* Prose styling for articles */
+.prose h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-top: 2.25rem;
+  margin-bottom: 0.75rem;
+  color: var(--color-warm-brown);
+  padding-top: 0.5rem;
+  border-top: 2px solid var(--color-cream);
+}
+
+.prose h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-warm-brown);
+}
+
+.prose p {
+  margin-bottom: 1.15rem;
+  line-height: 1.85;
+}
+
+.prose ul, .prose ol {
+  margin-bottom: 1.15rem;
+  padding-left: 1.5rem;
+}
+
+.prose li {
+  margin-bottom: 0.4rem;
+  line-height: 1.75;
+}
+
+.prose ul li {
+  list-style-type: disc;
+}
+
+.prose ol li {
+  list-style-type: decimal;
+}
+
+.prose strong {
+  color: var(--color-warm-brown);
+  font-weight: 700;
+}
+
+.prose a {
+  color: var(--color-terracotta);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.prose a:hover {
+  color: #b06545;
+}
+
+.prose blockquote {
+  border-left: 4px solid var(--color-golden);
+  padding: 0.75rem 1.25rem;
+  margin: 1.5rem 0;
+  background: #fef9ef;
+  border-radius: 0 0.75rem 0.75rem 0;
+  font-style: italic;
+  color: #6b5a4e;
+}
+
+.prose .tip-box {
+  background: #eef7f5;
+  border-left: 4px solid var(--color-soft-teal);
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border-radius: 0 0.75rem 0.75rem 0;
+}
+
+.prose .tip-box strong {
+  color: #5c8a8a;
+}
+
+/* Career table styling */
+.career-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.85rem;
+}
+
+.career-table th {
+  background: var(--color-cream);
+  text-align: left;
+  padding: 0.6rem;
+  border: 1px solid #e8d5b5;
+  font-weight: 700;
+  color: var(--color-warm-brown);
+}
+
+.career-table td {
+  padding: 0.6rem;
+  border: 1px solid #e8d5b5;
+  vertical-align: top;
+}
+
+.career-table tr:nth-child(even) {
+  background: var(--color-card);
+}
