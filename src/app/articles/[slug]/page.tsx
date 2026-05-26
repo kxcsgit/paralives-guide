@@ -1086,6 +1086,495 @@ export default async function ArticlePage({
       </>
     ),
 
+
+    // ==================== RELATIONSHIPS ====================
+    "paralives-relationships-social-guide": (
+      <>
+        <h2>🧵 Relationship System Overview</h2>
+        <p>Social interaction is the heart of life simulation. Paralives does it differently — no linear conversation trees; instead you draw <strong>Together Cards</strong> that shape the outcome.</p>
+        
+        <h3>🎴 Together Cards</h3>
+        <p>When two Paras interact, a &quot;Together Card&quot; appears. Each card represents a social action with different outcomes:</p>
+        <ul>
+          <li><strong>Green Cards:</strong> Positive interactions (chat, joke, compliment)</li>
+          <li><strong>Blue Cards:</strong> Neutral interactions (discuss hobby, ask about day)</li>
+          <li><strong>Red Cards:</strong> Negative interactions (argue, insult, mock)</li>
+          <li><strong>Pink Cards:</strong> Romantic interactions (flirt, kiss, confess love)</li>
+        </ul>
+        <p>The more cards you draw, the more the &quot;Together Bar&quot; fills up. When full, special interactions unlock.</p>
+
+        <h3>💕 Relationship Types</h3>
+        <div className="career-table"><table><thead><tr><th>Type</th><th>How to Achieve</th><th>Benefits</th></tr></thead><tbody>
+          <tr><td>👋 Acquaintance</td><td>First meeting</td><td>Basic interactions</td></tr>
+          <tr><td>💬 Friend</td><td>Regular positive interactions</td><td>Invite to hangout, share secrets</td></tr>
+          <tr><td>⭐ Best Friend</td><td>Deep friendship over time</td><td>Move in together, emotional support</td></tr>
+          <tr><td>💘 Romantic Interest</td><td>Flirting + romantic cards</td><td>Date, hold hands, kiss</td></tr>
+          <tr><td>💑 Partner</td><td>Propose relationship</td><td>Exclusive romance, jealousy system</td></tr>
+          <tr><td>💍 Spouse</td><td>Propose marriage</td><td>Shared household, family planning</td></tr>
+          <tr><td>😤 Enemy</td><td>Repeated negative interactions</td><td>Autonomous arguments, sabotage</td></tr>
+        </tbody></table></div>
+
+        <h2>❤️ Romance Guide</h2>
+        <h3>How to Start a Romance</h3>
+        <ol>
+          <li><strong>Build Friendship First:</strong> Most Paras won&apos;t accept romance from strangers</li>
+          <li><strong>Use Romantic Cards:</strong> Flirt, compliment appearance, confess attraction</li>
+          <li><strong>Check Compatibility:</strong> Matching traits boost romance speed</li>
+          <li><strong>Go on Dates:</strong> Restaurant, park, or home dates increase romance</li>
+          <li><strong>Propose:</strong> When romance bar is full, propose relationship</li>
+        </ol>
+
+        <h3>Marriage &amp; Family</h3>
+        <ul>
+          <li><strong>Proposal:</strong> Requires high romance + engagement ring</li>
+          <li><strong>Wedding:</strong> Can be small or grand — affects cost and mood</li>
+          <li><strong>Children:</strong> Try for baby or adopt</li>
+          <li><strong>Divorce:</strong> Possible but causes sadness and financial split</li>
+        </ul>
+
+        <h2>👨‍👩‍👧‍👦 Family Dynamics</h2>
+        <ul>
+          <li><strong>Parent-Child:</strong> Parents can teach skills, help with homework</li>
+          <li><strong>Siblings:</strong> Can be friends or rivals — depends on interactions</li>
+          <li><strong>Extended Family:</strong> Aunts, uncles, cousins exist but less impactful</li>
+          <li><strong>Family Tree:</strong> Track lineage across generations</li>
+        </ul>
+
+        <h2>💡 Social Tips</h2>
+        <ul>
+          <li><strong>Daily Interaction:</strong> Talk to at least one person per day to avoid loneliness</li>
+          <li><strong>Group Activities:</strong> Parties and gatherings boost multiple relationships</li>
+          <li><strong>Match Traits:</strong> Outgoing Paras need more social time; Loners need less</li>
+          <li><strong>Phone Calls:</strong> Quick way to maintain long-distance friendships</li>
+          <li><strong>Gifts:</strong> Giving gifts boosts relationship faster</li>
+        </ul>
+      </>
+    ),
+
+    // ==================== GETTING STARTED - ADVANCED ====================
+    "paralives-console-commands-cheats-guide": (
+      <>
+        <h2>💻 Console Commands Overview</h2>
+        <div className="tip-box"><strong>💡 Important:</strong> Using console commands may disable achievements for that save. Always back up your saves first.</div>
+
+        <h3>🔧 How to Enable Console</h3>
+        <ol>
+          <li>Press <strong>Ctrl + Shift + C</strong> to open the console</li>
+          <li>Type <strong>testingcheats true</strong> to enable cheat mode</li>
+          <li>Enter any command below</li>
+        </ol>
+
+        <h2>💰 Money Cheats</h2>
+        <div className="career-table"><table><thead><tr><th>Command</th><th>Effect</th></tr></thead><tbody>
+          <tr><td><code>money [amount]</code></td><td>Set household funds to exact amount</td></tr>
+          <tr><td><code>motherlode</code></td><td>Add 50,000 to household</td></tr>
+          <tr><td><code>kaching</code></td><td>Add 1,000 to household</td></tr>
+          <tr><td><code>freeRealEstate on</code></td><td>All lots are free</td></tr>
+        </tbody></table></div>
+
+        <h2>👤 Character Cheats</h2>
+        <div className="career-table"><table><thead><tr><th>Command</th><th>Effect</th></tr></thead><tbody>
+          <tr><td><code>resetSim [name]</code></td><td>Reset a stuck Para</td></tr>
+          <tr><td><code>fillNeeds</code></td><td>Max all needs for selected Para</td></tr>
+          <tr><td><code>setMaxSkill [skill] [level]</code></td><td>Set skill to specific level</td></tr>
+          <tr><td><code>addTrait [trait]</code></td><td>Add personality trait</td></tr>
+          <tr><td><code>removeTrait [trait]</code></td><td>Remove personality trait</td></tr>
+          <tr><td><code>setAge [stage]</code></td><td>Change age (baby, child, teen, adult, elder)</td></tr>
+        </tbody></table></div>
+
+        <h2>🏠 Build Mode Cheats</h2>
+        <div className="career-table"><table><thead><tr><th>Command</th><th>Effect</th></tr></thead><tbody>
+          <tr><td><code>bb.moveobjects on</code></td><td>Place objects anywhere (no collision)</td></tr>
+          <tr><td><code>bb.ignoregameplayunlocksentitlement</code></td><td>Unlock all career items</td></tr>
+          <tr><td><code>bb.showhiddenobjects</code></td><td>Show debug objects</td></tr>
+          <tr><td><code>bb.enablefreebuild</code></td><td>Build on any lot</td></tr>
+        </tbody></table></div>
+
+        <h2>⚠️ Troubleshooting</h2>
+        <ul>
+          <li><strong>Console not opening?</strong> Make sure you press Ctrl+Shift+C (not Ctrl+C)</li>
+          <li><strong>Command not working?</strong> Check spelling and try with/without spaces</li>
+          <li><strong>Game crashing?</strong> Some commands conflict — restart game and try one at a time</li>
+          <li><strong>Achievements disabled?</strong> Using cheats disables achievements for that save</li>
+        </ul>
+      </>
+    ),
+
+    "paralives-controls-keyboard-shortcuts-guide": (
+      <>
+        <h2>🌍 Global Shortcuts (Every Mode)</h2>
+        <div className="career-table"><table><thead><tr><th>Key</th><th>Action</th></tr></thead><tbody>
+          <tr><td><code>Space</code></td><td>Pause / Unpause</td></tr>
+          <tr><td><code>1 / 2 / 3</code></td><td>Game speed (Normal / Fast / Ultra)</td></tr>
+          <tr><td><code>Tab</code></td><td>Switch to Build Mode</td></tr>
+          <tr><td><code>Escape</code></td><td>Open menu / Close menu</td></tr>
+          <tr><td><code>M</code></td><td>Open Map</td></tr>
+          <tr><td><code>F</code></td><td>Focus on selected Para</td></tr>
+          <tr><td><code>G</code></td><td>Toggle Grid (Build Mode)</td></tr>
+          <tr><td><code>R</code></td><td>Rotate object</td></tr>
+          <tr><td><code>P</code></td><td>Eyedropper tool</td></tr>
+          <tr><td><code>S</code></td><td>Hammer (Delete) tool</td></tr>
+          <tr><td><code>Ctrl + Z</code></td><td>Undo</td></tr>
+          <tr><td><code>Ctrl + Y</code></td><td>Redo</td></tr>
+          <tr><td><code>Ctrl + S</code></td><td>Quick Save</td></tr>
+        </tbody></table></div>
+
+        <h2>🏠 Build Mode Shortcuts</h2>
+        <div className="career-table"><table><thead><tr><th>Key</th><th>Action</th></tr></thead><tbody>
+          <tr><td><code>[ ]</code></td><td>Scale object smaller / larger</td></tr>
+          <tr><td><code>Shift + R</code></td><td>Fine rotation (1° increments)</td></tr>
+          <tr><td><code>Shift + Click</code></td><td>Multi-select / Paint single tile</td></tr>
+          <tr><td><code>Ctrl + Click</code></td><td>Copy object</td></tr>
+          <tr><td><code>Delete</code></td><td>Remove selected object</td></tr>
+          <tr><td><code>H</code></td><td>Toggle wall height view</td></tr>
+          <tr><td><code>L</code></td><td>Toggle lighting preview</td></tr>
+          <tr><td><code>Home / End</code></td><td>Raise / Lower floor level</td></tr>
+        </tbody></table></div>
+
+        <h2>👤 Live Mode Shortcuts</h2>
+        <div className="career-table"><table><thead><tr><th>Key</th><th>Action</th></tr></thead><tbody>
+          <tr><td><code>Click Para</code></td><td>Select and control</td></tr>
+          <tr><td><code>Double Click</code></td><td>Focus camera on Para</td></tr>
+          <tr><td><code>Right Click</code></td><td>Quick interaction menu</td></tr>
+          <tr><td><code>Q / E</code></td><td>Rotate camera</td></tr>
+          <tr><td><code>Scroll</code></td><td>Zoom in / out</td></tr>
+          <tr><td><code>W / A / S / D</code></td><td>Pan camera</td></tr>
+        </tbody></table></div>
+
+        <div className="tip-box"><strong>💡 Pro tip:</strong> Press <code>Ctrl + Shift + C</code> to open the console for cheats and commands.</div>
+      </>
+    ),
+
+    "paralives-interface-explained-menu-build-mode": (
+      <>
+        <h2>🏠 Main Menu</h2>
+        <p>When you launch Paralives, you&apos;ll see:</p>
+        <ul>
+          <li><strong>Continue:</strong> Load your most recent save</li>
+          <li><strong>New Game:</strong> Start fresh with new Paras</li>
+          <li><strong>Load Game:</strong> Choose from all save files</li>
+          <li><strong>Settings:</strong> Graphics, audio, controls, UI scale</li>
+          <li><strong>Workshop:</strong> Steam Workshop browser</li>
+          <li><strong>Exit:</strong> Quit to desktop</li>
+        </ul>
+
+        <h2>🎮 Live Mode HUD</h2>
+        <h3>Bottom-Left Panel</h3>
+        <ul>
+          <li><strong>Para Portrait:</strong> Shows selected Para&apos;s face</li>
+          <li><strong>Need Bars:</strong> 🍔 Hunger, 🔋 Energy, 🛁 Hygiene, 💬 Social, 🎮 Fun, 🛋️ Comfort</li>
+          <li><strong>Emotion Icon:</strong> Current mood state</li>
+          <li><strong>Moodlet Icons:</strong> Active positive/negative effects</li>
+        </ul>
+
+        <h3>Bottom-Right Panel</h3>
+        <ul>
+          <li><strong>🏗️ Build Mode:</strong> Switch to building (Tab)</li>
+          <li><strong>🗺️ Map:</strong> Open world map (M)</li>
+          <li><strong>📱 Phone:</strong> Call friends, check jobs, browse web</li>
+          <li><strong>⚙️ Settings:</strong> Quick access to game settings</li>
+        </ul>
+
+        <h3>Top Bar</h3>
+        <ul>
+          <li><strong>💰 Funds:</strong> Current household money</li>
+          <li><strong>🕒 Time/Date:</strong> Current game time</li>
+          <li><strong>⏩ Speed:</strong> 1x, 2x, 3x speed controls</li>
+          <li><strong>⏸️ Pause:</strong> Pause/unpause (Space)</li>
+        </ul>
+
+        <h2>🏗️ Build Mode Interface</h2>
+        <h3>Top-Left Panel (Tools)</h3>
+        <ul>
+          <li><strong>🧱 Build:</strong> Walls, floors, foundations</li>
+          <li><strong>🛏️ Room:</strong> Pre-built room shapes</li>
+          <li><strong>🪑 Furniture:</strong> All buyable items</li>
+          <li><strong>🌳 Terrain:</strong> Landscaping tools</li>
+          <li><strong>🔍 Search:</strong> Find specific items</li>
+        </ul>
+
+        <h3>Top-Right Panel (Actions)</h3>
+        <ul>
+          <li><strong>🔨 Hammer:</strong> Delete objects (S)</li>
+          <li><strong>💉 Eyedropper:</strong> Copy object/color (P)</li>
+          <li><strong>↩️ Undo:</strong> Reverse last action (Ctrl+Z)</li>
+          <li><strong>🏢 Floors:</strong> Toggle floor visibility</li>
+          <li><strong>👁️ Wall View:</strong> Toggle wall visibility</li>
+        </ul>
+
+        <h2>💡 UI Tips</h2>
+        <ul>
+          <li><strong>UI Scale:</strong> Go to Settings → UI Scale (110-120% recommended for 1080p)</li>
+          <li><strong>Hover Tooltips:</strong> Hover over any icon for description</li>
+          <li><strong>Right-Click:</strong> Quick access to common actions</li>
+          <li><strong>Drag &amp; Drop:</strong> Drag items from catalog to lot</li>
+        </ul>
+      </>
+    ),
+
+    "paralives-settings-performance-graphics-guide": (
+      <>
+        <h2>⚙️ Graphics Settings Explained</h2>
+        <p>Fine-tune every setting to get smooth frame rates and crisp visuals — no matter your rig.</p>
+
+        <h3>🖥️ Resolution &amp; Display</h3>
+        <ul>
+          <li><strong>Resolution:</strong> Match your monitor (1920x1080, 2560x1440, 3840x2160)</li>
+          <li><strong>Display Mode:</strong> Fullscreen (best performance), Borderless, Windowed</li>
+          <li><strong>VSync:</strong> ON to prevent screen tearing, OFF for lower input lag</li>
+          <li><strong>Frame Rate Limit:</strong> Set to monitor refresh rate (60, 120, 144)</li>
+        </ul>
+
+        <h3>🎨 Visual Quality</h3>
+        <div className="career-table"><table><thead><tr><th>Setting</th><th>Impact</th><th>Recommendation</th></tr></thead><tbody>
+          <tr><td>Shadow Quality</td><td>High</td><td>Medium for mid-range PCs</td></tr>
+          <tr><td>Texture Quality</td><td>Medium</td><td>High if you have 8GB+ VRAM</td></tr>
+          <tr><td>Reflection Quality</td><td>Low</td><td>Low — minimal visual difference</td></tr>
+          <tr><td>Anti-Aliasing</td><td>Medium</td><td>TAA for smooth edges</td></tr>
+          <tr><td>Ambient Occlusion</td><td>Medium</td><td>ON for depth, OFF for performance</td></tr>
+          <tr><td>Draw Distance</td><td>High</td><td>Medium — reduces pop-in</td></tr>
+        </tbody></table></div>
+
+        <h2>💡 Performance Tips</h2>
+        <ul>
+          <li><strong>Close background apps:</strong> Browsers and chat apps eat RAM</li>
+          <li><strong>Update GPU drivers:</strong> NVIDIA and AMD release game-ready drivers</li>
+          <li><strong>Verify game files:</strong> Steam → Right-click → Properties → Local Files → Verify</li>
+          <li><strong>Lower resolution scale:</strong> 80% resolution scale gives big FPS boost</li>
+          <li><strong>Disable Steam Overlay:</strong> Can cause stutters on some systems</li>
+        </ul>
+      </>
+    ),
+
+    "paralives-early-access-missing-features-avoid-buyers-remorse": (
+      <>
+        <h2>⚠️ 10 Missing Features in Early Access</h2>
+        <p>Before you click &quot;Buy&quot;, read this. These 10 highly anticipated features are not in the game at launch.</p>
+
+        <h3>1. 🏘️ Open World Exploration</h3>
+        <p>Currently, you can only visit community lots by clicking on them. Full open-world walking/driving is planned for Phase 2.</p>
+
+        <h3>2. 🎭 Supernatural Life States</h3>
+        <p>No vampires, werewolves, or ghosts yet. These are planned for Phase 3.</p>
+
+        <h3>3. 🏫 Active Schools</h3>
+        <p>Children and teens go to school off-screen. Active school gameplay is planned.</p>
+
+        <h3>4. 🏢 Active Workplaces</h3>
+        <p>Careers are currently &quot;rabbit hole&quot; style. Active work gameplay is planned.</p>
+
+        <h3>5. 🎵 Musical Instruments</h3>
+        <p>Guitar and piano are not yet playable. Music skill system is planned.</p>
+
+        <h3>6. 🏊 Swimming &amp; Pools</h3>
+        <p>Pools and swimming are not implemented yet. Planned for Phase 2.</p>
+
+        <h3>7. 🚗 Vehicles</h3>
+        <p>No cars, bikes, or transportation. Fast travel only.</p>
+
+        <h3>8. 📸 Photography Skill</h3>
+        <p>Camera and photography system not yet available.</p>
+
+        <h3>9. 🎪 Festivals &amp; Events</h3>
+        <p>No seasonal festivals or community events yet.</p>
+
+        <h3>10. 📖 Story Mode</h3>
+        <p>Linear story campaigns are planned for full release.</p>
+
+        <h2>✅ What IS Available</h2>
+        <ul>
+          <li><strong>Build Mode:</strong> Complete and powerful</li>
+          <li><strong>Character Creator:</strong> Detailed and flexible</li>
+          <li><strong>8 Career Paths:</strong> With progression system</li>
+          <li><strong>Relationship System:</strong> Together Cards mechanic</li>
+          <li><strong>Needs System:</strong> Full life simulation</li>
+          <li><strong>Steam Workshop:</strong> Mod support from day one</li>
+        </ul>
+
+        <h2>🤔 Should You Buy?</h2>
+        <ul>
+          <li><strong>✅ Buy if:</strong> You love building, character creation, and life sims</li>
+          <li><strong>❌ Wait if:</strong> You want a complete game with all features</li>
+          <li><strong>💡 Consider:</strong> The developers are active and updates are regular</li>
+        </ul>
+      </>
+    ),
+
+    "paralives-strongest-sims-4-competitor": (
+      <>
+        <h2>⚔️ Paralives vs Sims 4: Head-to-Head</h2>
+        <p>From one programmer&apos;s hobby to 1.2 million Steam wishlists — here&apos;s how Paralives grew into the most credible threat to The Sims&apos; dominance.</p>
+
+        <h3>🏠 Build Mode</h3>
+        <div className="career-table"><table><thead><tr><th>Feature</th><th>Paralives</th><th>Sims 4</th></tr></thead><tbody>
+          <tr><td>Grid System</td><td>✅ Gridless</td><td>❌ Grid-based</td></tr>
+          <tr><td>Curved Walls</td><td>✅ Yes</td><td>❌ No</td></tr>
+          <tr><td>Object Scaling</td><td>✅ Any size</td><td>⚠️ Limited</td></tr>
+          <tr><td>Color Wheel</td><td>✅ Full RGB</td><td>⚠️ Limited palette</td></tr>
+          <tr><td>Split Levels</td><td>✅ Yes</td><td>⚠️ Limited</td></tr>
+          <tr><td>Custom Roofs</td><td>✅ Advanced</td><td>⚠️ Basic</td></tr>
+        </tbody></table></div>
+
+        <h3>👤 Character Creation</h3>
+        <div className="career-table"><table><thead><tr><th>Feature</th><th>Paralives</th><th>Sims 4</th></tr></thead><tbody>
+          <tr><td>Body Sculpting</td><td>✅ Free-form</td><td>⚠️ Sliders</td></tr>
+          <tr><td>Face Customization</td><td>✅ Detailed</td><td>✅ Good</td></tr>
+          <tr><td>Hair Color</td><td>✅ Full color wheel</td><td>⚠️ Limited</td></tr>
+          <tr><td>Clothing Colors</td><td>✅ Any color</td><td>⚠️ Pattern-based</td></tr>
+        </tbody></table></div>
+
+        <h3>💰 Value</h3>
+        <div className="career-table"><table><thead><tr><th>Aspect</th><th>Paralives</th><th>Sims 4</th></tr></thead><tbody>
+          <tr><td>Base Price</td><td>~$35</td><td>Free (was $40)</td></tr>
+          <tr><td>DLC Cost</td><td>None planned</td><td>$500+ for all DLC</td></tr>
+          <tr><td>Mod Support</td><td>✅ Steam Workshop</td><td>✅ External</td></tr>
+        </tbody></table></div>
+
+        <h2>🏆 Verdict</h2>
+        <ul>
+          <li><strong>Building:</strong> Paralives wins — gridless, curved walls, free scaling</li>
+          <li><strong>Character Creation:</strong> Tie — both excellent</li>
+          <li><strong>Gameplay Depth:</strong> Sims 4 wins (for now) — more content after years of DLC</li>
+          <li><strong>Value:</strong> Paralives wins — no expensive DLC model</li>
+        </ul>
+
+        <div className="tip-box"><strong>💡 Bottom Line:</strong> Paralives is the strongest Sims competitor in years. If you love building and hate DLC, it&apos;s the better choice.</div>
+      </>
+    ),
+
+    // ==================== BUILD MODE - ADVANCED ====================
+    "paralives-build-mode-masterclass-2026": (
+      <>
+        <h2>🎓 Build Mode Masterclass</h2>
+        <p>After 60 hours inside Paralives&apos; build mode, I&apos;m convinced it&apos;s the best life-sim builder ever.</p>
+
+        <h3>🧱 Advanced Wall Techniques</h3>
+        <ul>
+          <li><strong>Curved Wall Segments:</strong> Create perfect arcs by adjusting control points</li>
+          <li><strong>Wall Transitions:</strong> Smoothly connect straight and curved sections</li>
+          <li><strong>Mixed Heights:</strong> Combine standard, half, and invisible walls</li>
+          <li><strong>Wall Niches:</strong> Create built-in shelving with wall cutouts</li>
+        </ul>
+
+        <h3>🏗️ Advanced Roof Design</h3>
+        <ul>
+          <li><strong>Multi-Level Roofs:</strong> Stack different roof types for complex silhouettes</li>
+          <li><strong>Dormer Windows:</strong> Add small roof sections for attic windows</li>
+          <li><strong>Flat Roof Terraces:</strong> Create usable rooftop spaces</li>
+          <li><strong>Mixed Materials:</strong> Combine tile, metal, and slate on one roof</li>
+        </ul>
+
+        <h3>🪜 Staircase Mastery</h3>
+        <ul>
+          <li><strong>U-Shape with Landing:</strong> Create elegant central staircases</li>
+          <li><strong>Spiral Stairs:</strong> Space-saving and visually striking</li>
+          <li><strong>Hidden Stairs:</strong> Conceal access to secret rooms</li>
+        </ul>
+
+        <h3>🎨 Professional Lighting</h3>
+        <ul>
+          <li><strong>Three-Point Lighting:</strong> Ceiling + task + accent for balanced illumination</li>
+          <li><strong>Natural Light:</strong> Maximize windows for daytime brightness</li>
+          <li><strong>Mood Lighting:</strong> Warm-toned lights for cozy evenings</li>
+        </ul>
+
+        <h3>🌿 Landscaping Secrets</h3>
+        <ul>
+          <li><strong>Layered Planting:</strong> Tall trees → medium shrubs → ground cover</li>
+          <li><strong>Path Design:</strong> Stepping stones, gravel, or pavers</li>
+          <li><strong>Water Features:</strong> Fountains, ponds, and streams</li>
+        </ul>
+      </>
+    ),
+
+    "paralives-trendy-house-builds-tutorial": (
+      <>
+        <h2>🏛️ 1. Modern Curved-Wall Showpiece</h2>
+        <p><strong>Style:</strong> Contemporary | <strong>Budget:</strong> $50,000+ | <strong>Difficulty:</strong> ⭐⭐⭐</p>
+        <h3>Step-by-Step</h3>
+        <ol>
+          <li>Create a rectangular foundation (12x10 tiles)</li>
+          <li>Draw curved wall on front facade — drag control points for smooth arc</li>
+          <li>Add floor-to-ceiling windows along curved section</li>
+          <li>Build flat roof with rooftop terrace</li>
+          <li>Interior: open plan kitchen/living, 2 bedrooms, 2 bathrooms</li>
+          <li>Add infinity pool in backyard</li>
+        </ol>
+
+        <h2>🏡 2. Cozy Attic Retreat</h2>
+        <p><strong>Style:</strong> Cottage | <strong>Budget:</strong> $30,000 | <strong>Difficulty:</strong> ⭐⭐</p>
+        <h3>Step-by-Step</h3>
+        <ol>
+          <li>Build small foundation (8x8 tiles)</li>
+          <li>Standard walls on ground floor — living room, kitchen, bathroom</li>
+          <li>Steep roof pitch for spacious attic</li>
+          <li>Add dormer window for attic bedroom</li>
+          <li>Spiral stairs to save space</li>
+          <li>Cozy fireplace, wooden beams, warm lighting</li>
+        </ol>
+
+        <h2>🏊 3. Luxury Infinity Pool Villa</h2>
+        <p><strong>Style:</strong> Mediterranean | <strong>Budget:</strong> $80,000+ | <strong>Difficulty:</strong> ⭐⭐⭐⭐</p>
+        <h3>Step-by-Step</h3>
+        <ol>
+          <li>Large foundation on hillside lot (16x12 tiles)</li>
+          <li>L-shaped floor plan wrapping around pool</li>
+          <li>Multiple levels — main floor, upper bedrooms, basement gym</li>
+          <li>Infinity pool with vanishing edge (use terrain tool)</li>
+          <li>Outdoor kitchen and dining area</li>
+          <li>Landscaping: palm trees, stone path, garden lights</li>
+        </ol>
+
+        <h2>🎨 Style Guide Quick Reference</h2>
+        <div className="career-table"><table><thead><tr><th>Style</th><th>Colors</th><th>Key Elements</th></tr></thead><tbody>
+          <tr><td>Modern</td><td>White, black, gray, wood</td><td>Clean lines, large windows, flat roof</td></tr>
+          <tr><td>Cottage</td><td>Cream, sage, rose, wood</td><td>Steep roof, fireplace, cozy textures</td></tr>
+          <tr><td>Japanese</td><td>Natural wood, white, stone</td><td>Sliding doors, zen garden, low furniture</td></tr>
+          <tr><td>Industrial</td><td>Gray, black, brick red, metal</td><td>Exposed beams, high ceilings, metal accents</td></tr>
+        </tbody></table></div>
+      </>
+    ),
+
+    // ==================== MODS - ADVANCED ====================
+    "custom-content-modding-101": (
+      <>
+        <h2>🔧 Modding in Paralives</h2>
+        <p>One of the biggest reasons life simulation games have staying power is modding. Paralives Studio knows this — they&apos;ve built modding support into the game from day one.</p>
+
+        <h3>📦 Steam Workshop Integration</h3>
+        <ul>
+          <li><strong>One-Click Install:</strong> Subscribe to mods directly from Steam</li>
+          <li><strong>Auto-Update:</strong> Mods update automatically when creator releases new versions</li>
+          <li><strong>Easy Management:</strong> Enable/disable mods in-game</li>
+        </ul>
+
+        <h2>🛠️ Creating Your Own Mods</h2>
+        <h3>Tools You Need</h3>
+        <ul>
+          <li><strong>Text Editor:</strong> VS Code, Sublime Text, or Notepad++</li>
+          <li><strong>Image Editor:</strong> GIMP, Photoshop, or Paint.NET</li>
+          <li><strong>3D Software:</strong> Blender (free) for custom objects</li>
+        </ul>
+
+        <h3>Mod Types</h3>
+        <div className="career-table"><table><thead><tr><th>Type</th><th>Difficulty</th><th>Tools Needed</th></tr></thead><tbody>
+          <tr><td>Tuning Mod</td><td>⭐ Easy</td><td>Text editor</td></tr>
+          <tr><td>UI Mod</td><td>⭐⭐ Medium</td><td>Text editor, image editor</td></tr>
+          <tr><td>Custom Object</td><td>⭐⭐⭐ Hard</td><td>Blender, image editor</td></tr>
+          <tr><td>Script Mod</td><td>⭐⭐⭐⭐ Very Hard</td><td>C# knowledge, BepInEx</td></tr>
+        </tbody></table></div>
+
+        <h2>🚀 Publishing Your Mod</h2>
+        <ol>
+          <li><strong>Test thoroughly:</strong> Make sure mod works and doesn&apos;t conflict</li>
+          <li><strong>Create Steam Workshop item:</strong> Use Steam&apos;s upload tool</li>
+          <li><strong>Add screenshots:</strong> Show what your mod does</li>
+          <li><strong>Write description:</strong> Clear instructions and features list</li>
+          <li><strong>Tag appropriately:</strong> Help users find your mod</li>
+        </ol>
+      </>
+    ),
+
     "paralives-hidden-content-easter-eggs": (
       <>
         <h2>🥚 Hidden Content &amp; Easter Eggs</h2>
