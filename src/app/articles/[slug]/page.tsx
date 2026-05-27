@@ -1882,6 +1882,183 @@ export default async function ArticlePage({
         <div className="tip-box"><strong>💡 Pro tip:</strong> The &quot;Ambitious&quot; trait gives a 20% boost to career performance. Combine with the right skills for fast promotions!</div>
       </>
     ),
+
+    "paralives-beginner-guide-10min-2026": (
+      <>
+        <h2>⚡ Paralives Beginner&apos;s Guide: 10 Minutes to Master</h2>
+        <p>New to Paralives? This quick guide will get you up and running in just 10 minutes!</p>
+        
+        <h3>🎮 Step 1: Create Your First Para (2 min)</h3>
+        <ul>
+          <li><strong>Open Paramaker:</strong> Click &quot;New Game&quot; and select &quot;Create a Para&quot;</li>
+          <li><strong>Choose Appearance:</strong> Pick a preset or customize face, body, and hair</li>
+          <li><strong>Select 3 Traits:</strong> These define your Para&apos;s personality (e.g., Active, Outgoing, Creative)</li>
+          <li><strong>Pick a Backstory:</strong> This gives starting bonuses to skills</li>
+        </ul>
+        
+        <h3>🏠 Step 2: Find a Home (2 min)</h3>
+        <ul>
+          <li><strong>Browse Gallery:</strong> Check Steam Workshop for pre-made homes</li>
+          <li><strong>Start Simple:</strong> Choose a small lot with basic furniture</li>
+          <li><strong>Essential Items:</strong> Make sure you have bed, toilet, stove, fridge, and shower</li>
+        </ul>
+        
+        <h3>💼 Step 3: Get a Job (2 min)</h3>
+        <ul>
+          <li><strong>Open Phone:</strong> Click the phone icon in the bottom right</li>
+          <li><strong>Find Jobs:</strong> Browse available career paths</li>
+          <li><strong>Apply:</strong> Choose a job that matches your Para&apos;s skills</li>
+          <li><strong>First Day:</strong> Go to work on time for a good impression</li>
+        </ul>
+        
+        <h3>😊 Step 4: Manage Needs (2 min)</h3>
+        <ul>
+          <li><strong>Check Needs:</strong> Click your Para to see their needs bars</li>
+          <li><strong>Priority Order:</strong> Bladder → Hunger → Energy → Hygiene → Social → Fun</li>
+          <li><strong>Create Routine:</strong> Eat breakfast, work, eat dinner, socialize, sleep</li>
+        </ul>
+        
+        <h3>🎯 Step 5: Explore & Grow (2 min)</h3>
+        <ul>
+          <li><strong>Meet Neighbors:</strong> Visit nearby lots and introduce yourself</li>
+          <li><strong>Learn Skills:</strong> Practice cooking, painting, or logic</li>
+          <li><strong>Advance Career:</strong> Complete daily tasks for promotions</li>
+          <li><strong>Build Relationships:</strong> Use Together Cards to deepen connections</li>
+        </ul>
+        
+        <h2>💡 Top 10 Beginner Tips</h2>
+        <ol>
+          <li><strong>Save often:</strong> Use multiple save slots</li>
+          <li><strong>Start small:</strong> Don&apos;t build a mansion on your first try</li>
+          <li><strong>Focus on one career:</strong> Master one path before branching out</li>
+          <li><strong>Use pause:</strong> Take time to think without missing anything</li>
+          <li><strong>Check the journal:</strong> It tracks goals and achievements</li>
+          <li><strong>Upgrade furniture:</strong> Better items fill needs faster</li>
+          <li><strong>Make friends:</strong> Social connections unlock opportunities</li>
+          <li><strong>Learn to cook:</strong> Saves money and boosts mood</li>
+          <li><strong>Explore the map:</strong> Hidden interactions everywhere</li>
+          <li><strong>Have fun:</strong> There&apos;s no wrong way to play!</li>
+        </ol>
+        
+        <div className="tip-box"><strong>💡 Pro tip:</strong> The game saves automatically, but manual saves let you experiment without fear!</div>
+      </>
+    ),
+    "paralives-social-relationships-guide-friends-romance-family": (
+      <>
+        <h2>👨‍👩‍👧‍👦 Social Relationships: Friends, Romance & Family</h2>
+        <p>Relationships are the heart of Paralives. Here&apos;s how to build meaningful connections.</p>
+        
+        <h3>👋 Making Friends</h3>
+        <ul>
+          <li><strong>Introduce Yourself:</strong> Click on any Para and select &quot;Introduce&quot;</li>
+          <li><strong>Find Common Ground:</strong> Look for shared traits or interests</li>
+          <li><strong>Use Together Cards:</strong> These special interactions deepen relationships</li>
+          <li><strong>Spend Time:</strong> Regular interactions build friendship faster</li>
+        </ul>
+        
+        <h3>💕 Romance & Dating</h3>
+        <ul>
+          <li><strong>Flirt First:</strong> Start with light flirting to gauge interest</li>
+          <li><strong>Check Compatibility:</strong> Shared traits boost romantic success</li>
+          <li><strong>Go on Dates:</strong> Use date activities to build romantic connection</li>
+          <li><strong>Propose:</strong> When romance bar is high enough, propose marriage</li>
+        </ul>
+        
+        <h3>💍 Marriage & Wedding</h3>
+        <ul>
+          <li><strong>Engagement:</strong> Propose with a ring for higher success rate</li>
+          <li><strong>Wedding Party:</strong> Invite friends and family to celebrate</li>
+          <li><strong>Shared Home:</strong> Move in together after marriage</li>
+          <li><strong>Joint Finances:</strong> Combine households for efficiency</li>
+        </ul>
+        
+        <h3>👶 Having Children</h3>
+        <ul>
+          <li><strong>Try for Baby:</strong> Available after marriage or strong relationship</li>
+          <li><strong>Pregnancy:</strong> Lasts 3 Sim days with special needs</li>
+          <li><strong>Baby Care:</strong> Feed, change, and play with your baby</li>
+          <li><strong>Toddler Stage:</strong> Teach skills and build personality</li>
+        </ul>
+        
+        <h3>👨‍👩‍👧‍👦 Family Dynamics</h3>
+        <ul>
+          <li><strong>Parenting:</strong> Discipline or nurture affects child&apos;s personality</li>
+          <li><strong>Siblings:</strong> Siblings can be friends or rivals</li>
+          <li><strong>Extended Family:</strong> Grandparents, aunts, uncles add depth</li>
+          <li><strong>Family Events:</strong> Holidays and gatherings strengthen bonds</li>
+        </ul>
+        
+        <h2>💡 Relationship Tips</h2>
+        <ul>
+          <li><strong>Quality over quantity:</strong> Deep relationships matter more than many shallow ones</li>
+          <li><strong>Use emotions:</strong> Happy Paras build relationships faster</li>
+          <li><strong>Resolve conflicts:</strong> Don&apos;t let negative interactions pile up</li>
+          <li><strong>Be consistent:</strong> Regular contact maintains relationships</li>
+        </ul>
+        
+        <div className="tip-box"><strong>💡 Pro tip:</strong> The &quot;Romantic&quot; trait makes flirting 50% more effective. Great for players who want love stories!</div>
+      </>
+    ),
+    "relationships-social-system": (
+      <>
+        <h2>🎭 Relationships & Social System Deep-Dive</h2>
+        <p>Master the advanced social mechanics in Paralives.</p>
+        
+        <h3>🎴 Together Cards System</h3>
+        <p>Together Cards are special interactions that unlock as relationships deepen:</p>
+        <ul>
+          <li><strong>Acquaintance Cards:</strong> Basic introductions and small talk</li>
+          <li><strong>Friend Cards:</strong> Share secrets, hang out, deep conversations</li>
+          <li><strong>Romance Cards:</strong> Flirting, dating, romantic gestures</li>
+          <li><strong>Family Cards:</strong> Parenting advice, family bonding activities</li>
+        </ul>
+        
+        <h3>⭐ Reputation System</h3>
+        <p>Your Para&apos;s reputation affects how others react:</p>
+        <ul>
+          <li><strong>Good Reputation:</strong> Easier to make friends, better job prospects</li>
+          <li><strong>Bad Reputation:</strong> Social interactions fail more, limited opportunities</li>
+          <li><strong>Building Reputation:</strong> Help others, keep promises, be kind</li>
+          <li><strong>Losing Reputation:</strong> Lie, break promises, be mean</li>
+        </ul>
+        
+        <h3>😊 Social Dynamics</h3>
+        <ul>
+          <li><strong>Group Conversations:</strong> Multiple Paras can chat together</li>
+          <li><strong>Social Circles:</strong> Friends of friends become acquaintances</li>
+          <li><strong>Gossip:</strong> News spreads through social networks</li>
+          <li><strong>Jealousy:</strong> Romantic partners can get jealous of close friendships</li>
+        </ul>
+        
+        <h3>💔 Breakups & Divorce</h3>
+        <ul>
+          <li><strong>Relationship Decay:</strong> Neglected relationships slowly fade</li>
+          <li><strong>Breakup Option:</strong> Available when relationship is low</li>
+          <li><strong>Divorce:</strong> Requires marriage, affects both Paras emotionally</li>
+          <li><strong>Custody:</strong> Children stay with one parent after divorce</li>
+        </ul>
+        
+        <h3>👥 Social Interactions</h3>
+        <div className="career-table"><table><thead><tr><th>Interaction</th><th>Effect</th><th>Requirements</th></tr></thead><tbody>
+          <tr><td>Chat</td><td>+5 Social</td><td>None</td></tr>
+          <tr><td>Compliment</td><td>+10 Social</td><td>Acquaintance</td></tr>
+          <tr><td>Flirt</td><td>+15 Romance</td><td>Friend</td></tr>
+          <tr><td>Ask on Date</td><td>+20 Romance</td><td>High Friendship</td></tr>
+          <tr><td>Propose</td><td>Marriage</td><td>High Romance</td></tr>
+          <tr><td>Try for Baby</td><td>Pregnancy</td><td>Marriage</td></tr>
+        </tbody></table></div>
+        
+        <h2>💡 Advanced Social Tips</h2>
+        <ul>
+          <li><strong>Read the room:</strong> Check mood before initiating interactions</li>
+          <li><strong>Use environment:</strong> Romantic settings boost flirt success</li>
+          <li><strong>Build slowly:</strong> Don&apos;t rush romance — let it develop naturally</li>
+          <li><strong>Maintain balance:</strong> Keep multiple relationships healthy</li>
+        </ul>
+        
+        <div className="tip-box"><strong>💡 Pro tip:</strong> The &quot;Social Butterfly&quot; trait unlocks exclusive group interactions. Perfect for players who love parties!</div>
+      </>
+    ),
     "paralives-hidden-content-easter-eggs": (
       <>
         <h2>🥚 Hidden Content &amp; Easter Eggs</h2>

@@ -365,6 +365,39 @@ export const articles: Article[] = [
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
   },
+
+  // Getting Started - Final
+  {
+    slug: "paralives-beginner-guide-10min-2026",
+    title: "Beginner's Guide: 10 Minutes to Master",
+    description: "Quick start guide for new players — learn the basics fast.",
+    category: "getting-started",
+    icon: "⚡",
+    readTime: "5 min read",
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+  },
+  // Characters - Final
+  {
+    slug: "paralives-social-relationships-guide-friends-romance-family",
+    title: "Social Relationships: Friends, Romance & Family",
+    description: "Complete guide to building relationships — from first meeting to family life.",
+    category: "characters",
+    icon: "👨‍👩‍👧‍👦",
+    readTime: "9 min read",
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+  },
+  {
+    slug: "relationships-social-system",
+    title: "Relationships & Social System Deep-Dive",
+    description: "Advanced social mechanics — Together Cards, reputation, and social dynamics.",
+    category: "characters",
+    icon: "🎭",
+    readTime: "8 min read",
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+  },
   {
     slug: "paralives-hidden-content-easter-eggs",
     title: "Hidden Content & Easter Eggs",
