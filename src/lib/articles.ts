@@ -310,6 +310,61 @@ export const articles: Article[] = [
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
   },
+
+  // Getting Started - More
+  {
+    slug: "getting-started-your-first-para",
+    title: "Creating Your First Para",
+    description: "Complete character creation guide — traits, appearance, backstories, and starter tips.",
+    category: "getting-started",
+    icon: "👤",
+    readTime: "8 min read",
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+  },
+  {
+    slug: "paralives-best-graphics-settings-2026",
+    title: "Best Graphics Settings 2026",
+    description: "Optimize performance without sacrificing visual quality — tested on low to high-end PCs.",
+    category: "getting-started",
+    icon: "🎮",
+    readTime: "5 min read",
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+  },
+  // Build Mode - More
+  {
+    slug: "build-mode-complete-basics",
+    title: "Build Mode Complete Basics",
+    description: "Everything you need to know about building — walls, floors, roofs, and foundations.",
+    category: "build-mode",
+    icon: "🧱",
+    readTime: "10 min read",
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+  },
+  // Characters - More
+  {
+    slug: "paralives-needs-system-explained-happy-para",
+    title: "Needs System: Keep Your Para Happy",
+    description: "Deep dive into hunger, energy, social, fun, hygiene, and bladder needs.",
+    category: "characters",
+    icon: "😊",
+    readTime: "7 min read",
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+  },
+  // Careers - More
+  {
+    slug: "paralives-careers-guide",
+    title: "All Careers Guide",
+    description: "Every career path, salary, promotion requirements, and work schedule.",
+    category: "careers",
+    icon: "💼",
+    readTime: "9 min read",
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+  },
   {
     slug: "paralives-hidden-content-easter-eggs",
     title: "Hidden Content & Easter Eggs",

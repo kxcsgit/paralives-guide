@@ -1575,6 +1575,313 @@ export default async function ArticlePage({
       </>
     ),
 
+
+    "getting-started-your-first-para": (
+      <>
+        <h2>👤 Creating Your First Para</h2>
+        <p>The <strong>Paramaker</strong> is Paralives&apos; character creation tool. Here you&apos;ll design your Para&apos;s appearance, personality, and backstory.</p>
+        
+        <h3>🎨 Appearance Customization</h3>
+        <ul>
+          <li><strong>Face:</strong> Use sliders to adjust every facial feature — eyes, nose, mouth, jaw, and more</li>
+          <li><strong>Body:</strong> Adjust height, weight, body shape, and posture</li>
+          <li><strong>Hair:</strong> Choose from dozens of hairstyles with full color wheel</li>
+          <li><strong>Clothing:</strong> Mix and match tops, bottoms, shoes, and accessories</li>
+          <li><strong>Makeup:</strong> Apply lipstick, eyeshadow, blush, and more with custom colors</li>
+        </ul>
+        
+        <h3>🧠 Personality & Traits</h3>
+        <p>Each Para has <strong>3 trait slots</strong> that define their personality:</p>
+        <ul>
+          <li><strong>Active vs Lazy:</strong> Affects energy levels and exercise preference</li>
+          <li><strong>Outgoing vs Shy:</strong> Impacts social interactions and comfort in groups</li>
+          <li><strong>Creative vs Logical:</strong> Influences skill learning and career preferences</li>
+          <li><strong>Neat vs Slob:</strong> Affects cleaning behavior and hygiene needs</li>
+          <li><strong>Hot-headed vs Calm:</strong> Impacts emotional reactions and conflict handling</li>
+        </ul>
+        
+        <h3>📖 Backstory</h3>
+        <p>Choose a backstory that affects starting skills, relationships, and available interactions:</p>
+        <ul>
+          <li><strong>City Slicker:</strong> +2 Charisma, starts with more social connections</li>
+          <li><strong>Country Folk:</strong> +2 Handiness, starts with gardening knowledge</li>
+          <li><strong>Bookworm:</strong> +2 Logic, starts with higher education</li>
+          <li><strong>Free Spirit:</strong> +2 Creativity, starts with artistic skills</li>
+        </ul>
+        
+        <div className="tip-box"><strong>💡 Pro tip:</strong> Traits affect how quickly your Para learns related skills. An Active Para will learn Fitness faster than a Lazy one!</div>
+        
+        <h2>🎯 Starter Tips for New Players</h2>
+        <ol>
+          <li><strong>Start with a single Para</strong> — learn the basics before managing a household</li>
+          <li><strong>Focus on one career</strong> — don&apos;t spread your Para too thin</li>
+          <li><strong>Keep needs balanced</strong> — neglecting needs leads to negative moodlets</li>
+          <li><strong>Explore the neighborhood</strong> — there are hidden interactions everywhere</li>
+          <li><strong>Use the pause button</strong> — take time to plan without missing anything</li>
+        </ol>
+        
+        <h2>🔧 Recommended First Builds</h2>
+        <p>When creating your first Para, consider these balanced trait combinations:</p>
+        <div className="career-table"><table><thead><tr><th>Playstyle</th><th>Trait 1</th><th>Trait 2</th><th>Trait 3</th></tr></thead><tbody>
+          <tr><td>Balanced</td><td>Active</td><td>Outgoing</td><td>Creative</td></tr>
+          <tr><td>Career-focused</td><td>Ambitious</td><td>Logical</td><td>Neat</td></tr>
+          <tr><td>Social Butterfly</td><td>Outgoing</td><td>Flirty</td><td>Good</td></tr>
+          <tr><td>Homebody</td><td>Neat</td><td>Creative</td><td>Lazy</td></tr>
+        </tbody></table></div>
+        
+        <div className="tip-box"><strong>💡 Pro tip:</strong> You can always change your Para&apos;s appearance later, but traits are permanent until you age up!</div>
+      </>
+    ),
+    "paralives-best-graphics-settings-2026": (
+      <>
+        <h2>🎮 Best Graphics Settings for Paralives (2026)</h2>
+        <p>Paralives is well-optimized, but these settings will help you get the best balance of <strong>visual quality and performance</strong>.</p>
+        
+        <h3>⚡ Quick Settings (Low-End PC)</h3>
+        <div className="career-table"><table><thead><tr><th>Setting</th><th>Value</th><th>Impact</th></tr></thead><tbody>
+          <tr><td>Resolution</td><td>1080p</td><td>Stable framerate</td></tr>
+          <tr><td>Shadows</td><td>Low</td><td>+20-30 FPS</td></tr>
+          <tr><td>Anti-Aliasing</td><td>FXAA</td><td>Minimal cost</td></tr>
+          <tr><td>Texture Quality</td><td>Medium</td><td>Good balance</td></tr>
+          <tr><td>View Distance</td><td>Medium</td><td>Reduces load</td></tr>
+          <tr><td>V-Sync</td><td>Off</td><td>Lower input lag</td></tr>
+        </tbody></table></div>
+        
+        <h3>🎨 High Quality Settings (Mid-Range PC)</h3>
+        <div className="career-table"><table><thead><tr><th>Setting</th><th>Value</th><th>Impact</th></tr></thead><tbody>
+          <tr><td>Resolution</td><td>1440p</td><td>Sharp visuals</td></tr>
+          <tr><td>Shadows</td><td>High</td><td>Beautiful lighting</td></tr>
+          <tr><td>Anti-Aliasing</td><td>TAA</td><td>Smooth edges</td></tr>
+          <tr><td>Texture Quality</td><td>High</td><td>Crisp details</td></tr>
+          <tr><td>View Distance</td><td>High</td><td>Full world view</td></tr>
+          <tr><td>V-Sync</td><td>On</td><td>No tearing</td></tr>
+        </tbody></table></div>
+        
+        <h3>🖥️ Ultra Settings (High-End PC)</h3>
+        <p>Max everything out! Paralives looks stunning at ultra settings with:</p>
+        <ul>
+          <li><strong>4K Resolution</strong> — if your monitor supports it</li>
+          <li><strong>Ultra Shadows</strong> — realistic lighting and shadows</li>
+          <li><strong>MSAA 4x</strong> — best anti-aliasing quality</li>
+          <li><strong>Ultra Textures</strong> — every detail visible</li>
+          <li><strong>Maximum View Distance</strong> — see the entire neighborhood</li>
+        </ul>
+        
+        <h2>🔧 Performance Tips</h2>
+        <ul>
+          <li><strong>Update GPU drivers:</strong> Always use the latest drivers for best performance</li>
+          <li><strong>Close background apps:</strong> Free up RAM and CPU for the game</li>
+          <li><strong>Use SSD:</strong> Faster loading times and smoother gameplay</li>
+          <li><strong>Limit FPS:</strong> Cap at 60 FPS to reduce GPU heat and power usage</li>
+          <li><strong>Disable overlays:</strong> Steam and Discord overlays can cause stuttering</li>
+        </ul>
+        
+        <h2>📊 Performance Benchmarks</h2>
+        <div className="career-table"><table><thead><tr><th>GPU</th><th>1080p</th><th>1440p</th><th>4K</th></tr></thead><tbody>
+          <tr><td>GTX 1660</td><td>60 FPS</td><td>45 FPS</td><td>30 FPS</td></tr>
+          <tr><td>RTX 3060</td><td>120 FPS</td><td>90 FPS</td><td>60 FPS</td></tr>
+          <tr><td>RTX 4070</td><td>144+ FPS</td><td>120 FPS</td><td>90 FPS</td></tr>
+          <tr><td>RTX 4090</td><td>144+ FPS</td><td>144+ FPS</td><td>144 FPS</td></tr>
+        </tbody></table></div>
+        
+        <div className="tip-box"><strong>💡 Pro tip:</strong> Paralives supports DLSS and FSR. Enable them for a significant FPS boost with minimal quality loss!</div>
+      </>
+    ),
+    "build-mode-complete-basics": (
+      <>
+        <h2>🧱 Build Mode Complete Basics</h2>
+        <p>Build Mode is where you create your Para&apos;s home. This guide covers everything from walls to roofing.</p>
+        
+        <h3>🔨 Essential Tools</h3>
+        <ul>
+          <li><strong>Wall Tool:</strong> Click and drag to draw walls. Hold Shift for diagonal walls</li>
+          <li><strong>Floor Tool:</strong> Paint floors with any material or color</li>
+          <li><strong>Roof Tool:</strong> Add roofs with multiple styles (gable, hip, flat, etc.)</li>
+          <li><strong>Door/Window Tool:</strong> Place doors and windows on any wall</li>
+          <li><strong>Furniture Tool:</strong> Browse and place hundreds of items</li>
+        </ul>
+        
+        <h3>📏 Grid System</h3>
+        <p>Paralives offers <strong>gridless building</strong> for maximum creativity:</p>
+        <ul>
+          <li><strong>Grid Mode:</strong> Items snap to grid for easy alignment</li>
+          <li><strong>Gridless Mode:</strong> Place items anywhere for custom layouts</li>
+          <li><strong>Half-grid:</strong> Fine-tune placement with half-grid increments</li>
+          <li><strong>Alt key:</strong> Hold Alt to freely rotate items</li>
+        </ul>
+        
+        <h3>🎨 Materials & Colors</h3>
+        <p>Every surface can be customized:</p>
+        <ul>
+          <li><strong>Color Wheel:</strong> Pick any color for walls, floors, and furniture</li>
+          <li><strong>Textures:</strong> Apply wood, stone, tile, and more</li>
+          <li><strong>Patterns:</strong> Add stripes, florals, geometric designs</li>
+          <li><strong>Opacity:</strong> Adjust transparency for layered effects</li>
+        </ul>
+        
+        <h2>🏠 Building a Basic House</h2>
+        <ol>
+          <li><strong>Start with Foundation:</strong> Choose a lot size and add foundation height</li>
+          <li><strong>Draw Outer Walls:</strong> Create the basic shape of your house</li>
+          <li><strong>Add Interior Walls:</strong> Divide into rooms (bedroom, bathroom, kitchen, etc.)</li>
+          <li><strong>Place Doors & Windows:</strong> Add entry points and natural light</li>
+          <li><strong>Add Floors & Walls:</strong> Apply materials to each room</li>
+          <li><strong>Furnish:</strong> Add essential items (bed, toilet, stove, fridge)</li>
+          <li><strong>Decorate:</strong> Add lighting, art, plants, and personal touches</li>
+        </ol>
+        
+        <h2>🔧 Advanced Techniques</h2>
+        <ul>
+          <li><strong>Split Levels:</strong> Create sunken living rooms or elevated platforms</li>
+          <li><strong>Curved Walls:</strong> Build rounded rooms and unique shapes</li>
+          <li><strong>Custom Stairs:</strong> Design L-shaped, U-shaped, or spiral staircases</li>
+          <li><strong>Basements:</strong> Dig down to add underground rooms</li>
+          <li><strong>Lofts:</strong> Create open upper floors with viewing areas</li>
+        </ul>
+        
+        <h2>💡 Building Tips</h2>
+        <ul>
+          <li><strong>Use reference photos:</strong> Look at real houses for inspiration</li>
+          <li><strong>Plan your layout:</strong> Sketch on paper before building</li>
+          <li><strong>Start simple:</strong> Master basic shapes before complex designs</li>
+          <li><strong>Save often:</strong> Use multiple save slots for different versions</li>
+          <li><strong>Share builds:</strong> Upload to Steam Workshop for others to enjoy</li>
+        </ul>
+        
+        <div className="tip-box"><strong>💡 Pro tip:</strong> Hold Shift while placing items to duplicate them quickly. Great for matching furniture sets!</div>
+      </>
+    ),
+    "paralives-needs-system-explained-happy-para": (
+      <>
+        <h2>😊 Needs System: Keep Your Para Happy</h2>
+        <p>Every Para has <strong>6 core needs</strong> that must be maintained. Neglecting them leads to negative moodlets and reduced performance.</p>
+        
+        <h3>📊 The 6 Core Needs</h3>
+        <div className="career-table"><table><thead><tr><th>Need</th><th>Icon</th><th>How to Fill</th><th>Decay Rate</th></tr></thead><tbody>
+          <tr><td>Hunger</td><td>🍔</td><td>Eat meals, snacks</td><td>Medium</td></tr>
+          <tr><td>Energy</td><td>⚡</td><td>Sleep, nap, coffee</td><td>Slow</td></tr>
+          <tr><td>Social</td><td>💬</td><td>Talk, call, text</td><td>Medium</td></tr>
+          <tr><td>Fun</td><td>🎮</td><td>Games, TV, hobbies</td><td>Fast</td></tr>
+          <tr><td>Hygiene</td><td>🚿</td><td>Shower, bath, wash hands</td><td>Medium</td></tr>
+          <tr><td>Bladder</td><td>🚽</td><td>Use toilet</td><td>Fast</td></tr>
+        </tbody></table></div>
+        
+        <h3>⚠️ Low Need Effects</h3>
+        <ul>
+          <li><strong>Low Hunger:</strong> &quot;Starving&quot; moodlet, reduced skill learning speed</li>
+          <li><strong>Low Energy:</strong> &quot;Exhausted&quot; moodlet, may pass out</li>
+          <li><strong>Low Social:</strong> &quot;Lonely&quot; moodlet, social interactions fail more</li>
+          <li><strong>Low Fun:</strong> &quot;Bored&quot; moodlet, reduced work performance</li>
+          <li><strong>Low Hygiene:</strong> &quot;Stinky&quot; moodlet, others avoid your Para</li>
+          <li><strong>Low Bladder:</strong> &quot;Desperate&quot; moodlet, may have accident</li>
+        </ul>
+        
+        <h2>🔄 Need Decay Rates</h2>
+        <p>Different traits affect how quickly needs decay:</p>
+        <ul>
+          <li><strong>Active:</strong> Energy decays faster, Fun decays slower</li>
+          <li><strong>Lazy:</strong> Energy decays slower, Fun decays faster</li>
+          <li><strong>Neat:</strong> Hygiene decays faster</li>
+          <li><strong>Slob:</strong> Hygiene decays slower</li>
+          <li><strong>Outgoing:</strong> Social decays faster</li>
+          <li><strong>Shy:</strong> Social decays slower</li>
+        </ul>
+        
+        <h2>💡 Need Management Tips</h2>
+        <ul>
+          <li><strong>Create routines:</strong> Have your Para eat, sleep, and shower at consistent times</li>
+          <li><strong>Multi-task:</strong> Eat while watching TV (fills Hunger + Fun)</li>
+          <li><strong>Upgrade furniture:</strong> Better beds fill Energy faster</li>
+          <li><strong>Use rewards:</strong> Satisfaction points can instantly fill needs</li>
+          <li><strong>Plan ahead:</strong> Fill needs before work or social events</li>
+        </ul>
+        
+        <h2>🎯 Need Priority Order</h2>
+        <p>When multiple needs are low, prioritize in this order:</p>
+        <ol>
+          <li><strong>Bladder</strong> — fastest decay, most embarrassing failure</li>
+          <li><strong>Hunger</strong> — affects everything else</li>
+          <li><strong>Energy</strong> — required for all activities</li>
+          <li><strong>Hygiene</strong> — affects social interactions</li>
+          <li><strong>Social</strong> — important for careers and relationships</li>
+          <li><strong>Fun</strong> — slowest decay, easiest to fill</li>
+        </ol>
+        
+        <div className="tip-box"><strong>💡 Pro tip:</strong> The &quot;Steel Bladder&quot; reward trait makes Bladder need decay 50% slower. Worth the points!</div>
+      </>
+    ),
+    "paralives-careers-guide": (
+      <>
+        <h2>💼 All Careers Guide</h2>
+        <p>Paralives features <strong>8 career paths</strong> with multiple levels each. Here&apos;s everything you need to know about jobs and promotions.</p>
+        
+        <h3>🏢 Available Careers</h3>
+        <div className="career-table"><table><thead><tr><th>Career</th><th>Levels</th><th>Top Salary</th><th>Key Skill</th></tr></thead><tbody>
+          <tr><td>💻 Tech</td><td>10</td><td>§3,500/day</td><td>Logic</td></tr>
+          <tr><td>🏥 Medical</td><td>10</td><td>§3,200/day</td><td>Logic + Charisma</td></tr>
+          <tr><td>💼 Business</td><td>10</td><td>§3,000/day</td><td>Charisma</td></tr>
+          <tr><td>🏗️ Construction</td><td>10</td><td>§2,800/day</td><td>Handiness</td></tr>
+          <tr><td>🎨 Art</td><td>10</td><td>§2,500/day</td><td>Creativity</td></tr>
+          <tr><td>📚 Education</td><td>10</td><td>§2,200/day</td><td>Logic + Charisma</td></tr>
+          <tr><td>👮 Public Service</td><td>10</td><td>§2,000/day</td><td>Physique</td></tr>
+          <tr><td>🍳 Culinary</td><td>10</td><td>§1,800/day</td><td>Cooking</td></tr>
+        </tbody></table></div>
+        
+        <h3>📈 Promotion Requirements</h3>
+        <p>To get promoted, your Para needs:</p>
+        <ul>
+          <li><strong>Skill Level:</strong> Each career requires specific skills at certain levels</li>
+          <li><strong>Performance:</strong> Go to work on time and stay the full shift</li>
+          <li><strong>Relationships:</strong> Some careers require befriending coworkers</li>
+          <li><strong>Daily Tasks:</strong> Complete career-specific tasks at home</li>
+        </ul>
+        
+        <h2>💰 Career Comparison</h2>
+        <h3>Best for Money</h3>
+        <ol>
+          <li><strong>Tech:</strong> Highest salary, but requires Logic 10</li>
+          <li><strong>Medical:</strong> High salary, needs both Logic and Charisma</li>
+          <li><strong>Business:</strong> Good salary, easier requirements</li>
+        </ol>
+        
+        <h3>Best for Beginners</h3>
+        <ol>
+          <li><strong>Business:</strong> Only needs Charisma, social skill</li>
+          <li><strong>Art:</strong> Creative skill, fun daily tasks</li>
+          <li><strong>Culinary:</strong> Cooking skill, useful for household</li>
+        </ol>
+        
+        <h3>Best Work-Life Balance</h3>
+        <ol>
+          <li><strong>Education:</strong> Shorter hours, weekends off</li>
+          <li><strong>Art:</strong> Flexible schedule, work from home</li>
+          <li><strong>Culinary:</strong> Split shifts, but predictable</li>
+        </ol>
+        
+        <h2>⏰ Work Schedules</h2>
+        <div className="career-table"><table><thead><tr><th>Career</th><th>Hours</th><th>Days Off</th></tr></thead><tbody>
+          <tr><td>Tech</td><td>9 AM - 5 PM</td><td>Sat-Sun</td></tr>
+          <tr><td>Medical</td><td>7 AM - 3 PM</td><td>Varies</td></tr>
+          <tr><td>Business</td><td>8 AM - 4 PM</td><td>Sat-Sun</td></tr>
+          <tr><td>Construction</td><td>6 AM - 2 PM</td><td>Sat-Sun</td></tr>
+          <tr><td>Art</td><td>10 AM - 6 PM</td><td>Mon-Tue</td></tr>
+          <tr><td>Education</td><td>8 AM - 3 PM</td><td>Sat-Sun</td></tr>
+          <tr><td>Public Service</td><td>8 AM - 4 PM</td><td>Varies</td></tr>
+          <tr><td>Culinary</td><td>4 PM - 12 AM</td><td>Mon-Tue</td></tr>
+        </tbody></table></div>
+        
+        <h2>🎯 Career Tips</h2>
+        <ul>
+          <li><strong>Start building skills early:</strong> Skills take time to level up</li>
+          <li><strong>Make friends at work:</strong> Coworker relationships help promotions</li>
+          <li><strong>Complete daily tasks:</strong> They boost performance significantly</li>
+          <li><strong>Don&apos;t skip work:</strong> Absences hurt promotion chances</li>
+          <li><strong>Consider work hours:</strong> Match career to your Para&apos;s lifestyle</li>
+        </ul>
+        
+        <div className="tip-box"><strong>💡 Pro tip:</strong> The &quot;Ambitious&quot; trait gives a 20% boost to career performance. Combine with the right skills for fast promotions!</div>
+      </>
+    ),
     "paralives-hidden-content-easter-eggs": (
       <>
         <h2>🥚 Hidden Content &amp; Easter Eggs</h2>
