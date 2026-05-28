@@ -18,6 +18,21 @@ export default function Home() {
           <br className="hidden sm:block" />
           <span className="text-terracotta"> Paralives</span> Guides
         </h1>
+        {/* Steam Stats Bar */}
+        <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8 mb-8 text-sm font-semibold">
+          <div className="flex items-center gap-2 bg-green-500/10 text-green-700 px-4 py-2 rounded-full border border-green-500/20">
+            <span>⭐</span> Very Positive (88%)
+          </div>
+          <div className="flex items-center gap-2 bg-amber-500/10 text-amber-700 px-4 py-2 rounded-full border border-amber-500/20">
+            <span>👥</span> 7,000+ Reviews
+          </div>
+          <div className="flex items-center gap-2 bg-blue-500/10 text-blue-700 px-4 py-2 rounded-full border border-blue-500/20">
+            <span>🚀</span> 250K Sold Day 1
+          </div>
+          <a href="https://store.steampowered.com/app/1118520/Paralives/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-terracotta/10 text-terracotta px-4 py-2 rounded-full border border-terracotta/20 hover:bg-terracotta/20 transition">
+            <span>🎮</span> $35.99 on Steam (-10%)
+          </a>
+        </div>
         <p className="text-base md:text-xl text-muted max-w-2xl mx-auto mb-10 leading-relaxed">
           Character creation deep-dives, build mode masterclasses, career path
           breakdowns, and relationship guides — everything a new Para needs,
@@ -82,7 +97,7 @@ export default function Home() {
               Browse All
             </span>
             <h3 className="font-bold text-lg mb-2">
-              20+ Guides and Counting
+              37 Guides and Counting
             </h3>
             <p className="text-muted text-sm leading-relaxed mb-4">
               Explore our full library of tips, tricks, and in-depth tutorials.

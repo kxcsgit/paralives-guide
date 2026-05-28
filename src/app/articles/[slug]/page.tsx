@@ -22,7 +22,16 @@ export default async function ArticlePage({
     "paralives-early-access-complete-guide-2026": (
       <>
         <h2>📅 Release Date &amp; Price</h2>
-        <p>Paralives launched in <strong>Early Access on May 25, 2026</strong> on Steam. The game is priced at approximately <strong>$35-40 USD</strong> (regional pricing varies).</p>
+        <p>Paralives launched in <strong>Early Access on May 25, 2026</strong> on Steam. The game is priced at <strong>$39.99 USD</strong> with a <strong>10% launch discount ($35.99)</strong>.</p>
+        <div className="career-table"><table><thead><tr><th>Info</th><th>Details</th></tr></thead><tbody>
+          <tr><td>Release Date</td><td>May 25, 2026</td></tr>
+          <tr><td>Price</td><td>$39.99 (launch discount: $35.99)</td></tr>
+          <tr><td>Reviews</td><td>⭐ Very Positive (88% of 7,100+ reviews)</td></tr>
+          <tr><td>Day 1 Sales</td><td>🚀 250,000+ copies sold in 8 hours</td></tr>
+          <tr><td>Platforms</td><td>Windows + macOS</td></tr>
+          <tr><td>Developer</td><td>Paralives Studio</td></tr>
+          <tr><td>Steam Page</td><td><a href="https://store.steampowered.com/app/1118520/Paralives/">View on Steam →</a></td></tr>
+        </tbody></table></div>
         <div className="tip-box"><strong>💡 What is Early Access?</strong> Early Access allows you to play the game while it&apos;s still being developed. You&apos;ll get access to the current content and receive all future updates for free until the full release.</div>
         <h2>🎮 What&apos;s Included at Launch</h2>
         <ul>
@@ -43,11 +52,12 @@ export default async function ArticlePage({
         </ul>
         <h2>💻 System Requirements</h2>
         <div className="career-table"><table><thead><tr><th>Component</th><th>Minimum</th><th>Recommended</th></tr></thead><tbody>
-          <tr><td>OS</td><td>Windows 10 64-bit</td><td>Windows 10/11 64-bit</td></tr>
-          <tr><td>Processor</td><td>Intel i5-4590 / AMD Ryzen 3 1200</td><td>Intel i7-8700 / AMD Ryzen 5 3600</td></tr>
-          <tr><td>Memory</td><td>8 GB RAM</td><td>16 GB RAM</td></tr>
-          <tr><td>Graphics</td><td>NVIDIA GTX 960 / AMD R9 280</td><td>NVIDIA GTX 1060 / AMD RX 580</td></tr>
-          <tr><td>Storage</td><td>15 GB available space</td><td>20 GB SSD</td></tr>
+          <tr><td>OS</td><td>Windows 10</td><td>Windows 11</td></tr>
+          <tr><td>Processor</td><td>Intel i5</td><td>Intel i5</td></tr>
+          <tr><td>Memory</td><td>4 GB RAM</td><td>8 GB RAM</td></tr>
+          <tr><td>Graphics</td><td>GTX 980 Ti</td><td>GTX 980 Ti</td></tr>
+          <tr><td>DirectX</td><td>Version 11</td><td>Version 12</td></tr>
+          <tr><td>Storage</td><td>168 MB</td><td>168 MB</td></tr>
         </tbody></table></div>
         <h2>🎯 Is It Worth Buying?</h2>
         <p><strong>Yes, if you enjoy life simulation games.</strong> Paralives offers a unique building experience with its gridless system and curved walls. The character creator is detailed, and the career system provides good progression.</p>

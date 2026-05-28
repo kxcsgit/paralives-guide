@@ -7,6 +7,47 @@ export default function AboutPage() {
         ℹ️ About ParalivesGuide.wiki
       </h1>
 
+      {/* Steam Info Box */}
+      <div className="bg-gradient-to-br from-terracotta/5 to-golden/5 rounded-2xl p-6 border border-terracotta/20 mb-8">
+        <h2 className="text-xl font-bold mb-4">🎮 Paralives — Steam Quick Facts</h2>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+          <div>
+            <div className="text-muted font-semibold">Release Date</div>
+            <div className="font-bold">May 25, 2026</div>
+          </div>
+          <div>
+            <div className="text-muted font-semibold">Price</div>
+            <div className="font-bold">$39.99 <span className="text-green-600">(-10% = $35.99)</span></div>
+          </div>
+          <div>
+            <div className="text-muted font-semibold">Reviews</div>
+            <div className="font-bold text-green-700">⭐ Very Positive (88%)</div>
+          </div>
+          <div>
+            <div className="text-muted font-semibold">Day 1 Sales</div>
+            <div className="font-bold text-blue-700">🚀 250,000+ copies</div>
+          </div>
+          <div>
+            <div className="text-muted font-semibold">Platforms</div>
+            <div className="font-bold">Windows + macOS</div>
+          </div>
+          <div>
+            <div className="text-muted font-semibold">Status</div>
+            <div className="font-bold">Early Access</div>
+          </div>
+          <div>
+            <div className="text-muted font-semibold">Developer</div>
+            <div className="font-bold">Paralives Studio</div>
+          </div>
+          <div>
+            <div className="text-muted font-semibold">Steam</div>
+            <a href="https://store.steampowered.com/app/1118520/Paralives/" target="_blank" rel="noopener noreferrer" className="font-bold text-terracotta hover:underline">
+              View on Steam →
+            </a>
+          </div>
+        </div>
+      </div>
+
       <div className="prose">
         <p>
           Welcome to <strong>ParalivesGuide.wiki</strong> — your ultimate
