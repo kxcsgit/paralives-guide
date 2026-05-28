@@ -408,6 +408,37 @@ export const articles: Article[] = [
     publishedAt: "2026-05-25",
     updatedAt: "2026-05-25",
   },
+  // YouTube-sourced articles
+  {
+    slug: "15-mistakes-to-avoid-paralives-2026",
+    title: "15 Mistakes to Avoid in Paralives",
+    description: "Beginner traps that waste your time — learn from others' failures.",
+    category: "getting-started",
+    icon: "🚫",
+    readTime: "9 min read",
+    publishedAt: "2026-05-28",
+    updatedAt: "2026-05-28",
+  },
+  {
+    slug: "10-tips-building-better-homes-paralives",
+    title: "10 Tips for Building Better Homes",
+    description: "Pro building techniques that make your houses look incredible.",
+    category: "build-mode",
+    icon: "🏡",
+    readTime: "10 min read",
+    publishedAt: "2026-05-28",
+    updatedAt: "2026-05-28",
+  },
+  {
+    slug: "10-paralives-build-features-change-everything",
+    title: "10 Build Features That Change Everything",
+    description: "Game-changing tools you didn't know existed in Paralives.",
+    category: "build-mode",
+    icon: "⚡",
+    readTime: "8 min read",
+    publishedAt: "2026-05-28",
+    updatedAt: "2026-05-28",
+  },
 ];
 
 export function getArticlesByCategory(categoryId: string): Article[] {

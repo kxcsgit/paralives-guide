@@ -2134,6 +2134,253 @@ export default async function ArticlePage({
         <div className="tip-box"><strong>💡 Pro tip:</strong> Some easter eggs are time-sensitive. Play at different times of day and night to discover everything!</div>
       </>
     ),
+
+    // ==================== YOUTUBE-SOURCED ARTICLES ====================
+    "15-mistakes-to-avoid-paralives-2026": (
+      <>
+        <p className="text-muted text-sm italic mb-6">
+          📺 Based on <a href="https://www.youtube.com/watch?v=6QyxJwkGWgc" target="_blank" rel="noopener noreferrer" className="text-terracotta hover:underline">ezlilyy's YouTube video</a> — check out her channel for more life sim content!
+        </p>
+
+        <p>
+          Paralives just launched in Early Access, and thousands of players are diving in for the first time. But there are <strong>common pitfalls</strong> that can waste your time, drain your in-game money, or leave you frustrated. Here are 15 mistakes to avoid so you can enjoy the game from day one.
+        </p>
+
+        <h2>🚫 Mistake #1: Treating Paralives Like The Sims</h2>
+        <p>
+          The biggest mistake? Assuming Paralives works exactly like The Sims. While both are life simulators, Paralives has <strong>unique mechanics</strong> — grid-free building, different needs systems, and its own social dynamics. Take 10 minutes to read the tutorials before jumping in.
+        </p>
+
+        <h2>🚫 Mistake #2: Skipping the Paramaker Tutorial</h2>
+        <p>
+          The Paramaker (character creator) is incredibly deep. Many players rush through it and miss features like <strong>custom body proportions</strong>, detailed face sculpting, and personality trait combinations. Spend time here — your Para's traits affect gameplay significantly.
+        </p>
+
+        <h2>🚫 Mistake #3: Building Without a Plan</h2>
+        <p>
+          Paralives' grid-free building is liberating, but building without a floor plan leads to awkward layouts. <strong>Sketch your idea first</strong> — even a rough drawing helps. Start with the foundation shape, then add walls, and furnish last.
+        </p>
+
+        <h2>🚫 Mistake #4: Ignoring the Needs System</h2>
+        <p>
+          Unlike some life sims where needs are forgiving, Paralives' needs system is <strong>more realistic</strong>. Ignoring hunger, energy, or social needs leads to negative moodlets fast. Check your Para's needs panel regularly.
+        </p>
+
+        <h2>🚫 Mistake #5: Overspending on Your First House</h2>
+        <p>
+          It's tempting to build a mansion right away, but you'll drain your funds. Start with a <strong>modest starter home</strong> — a bedroom, bathroom, kitchen, and basic furniture. Expand as your Para earns more money.
+        </p>
+
+        <h2>🚫 Mistake #6: Not Exploring the Neighborhood</h2>
+        <p>
+          Paralives features an <strong>open-world neighborhood</strong>. Don't stay locked in your lot! Visit community lots, meet other Parafolk, and discover hidden locations. Many players miss this entirely.
+        </p>
+
+        <h2>🚫 Mistake #7: Choosing the Wrong Career Path</h2>
+        <p>
+          Each career in Paralives has different <strong>time requirements and salary growth</strong>. Some careers require your Para to be away all day, while others are more flexible. Read our <a href="/articles/paralives-career-guide-which-job-most-money-2026">career guide</a> to pick the right one.
+        </p>
+
+        <h2>🚫 Mistake #8: Forgetting About Social Relationships</h2>
+        <p>
+          Relationships in Paralives use a <strong>Together Cards system</strong> — it's not just spamming "friendly interaction." Build genuine connections by choosing meaningful interactions. Neglecting social needs leads to loneliness and depression.
+        </p>
+
+        <h2>🚫 Mistake #9: Using Too Many Cheats Early</h2>
+        <p>
+          Console commands exist (check our <a href="/articles/paralives-console-commands-cheats-guide">cheats guide</a>), but using them too early <strong>ruins the experience</strong>. Play legitimately first to understand the game mechanics, then experiment with cheats on a separate save.
+        </p>
+
+        <h2>🚫 Mistake #10: Not Saving Frequently</h2>
+        <p>
+          This is Early Access — <strong>bugs and crashes happen</strong>. Save your game every 15-20 minutes. Use multiple save slots so you can roll back if something goes wrong.
+        </p>
+
+        <h2>🚫 Mistake #11: Ignoring Build Mode Shortcuts</h2>
+        <p>
+          Paralives has powerful <strong>keyboard shortcuts</strong> for building. Learn the basics: hold Shift for free placement, use the resize tool for custom dimensions, and use the eyedropper to copy items. Check our <a href="/articles/paralives-controls-keyboard-shortcuts-guide">shortcuts guide</a>.
+        </p>
+
+        <h2>🚫 Mistake #12: Neglecting Landscaping</h2>
+        <p>
+          A beautiful house with <strong>no landscaping</strong> looks incomplete. Add trees, flowers, pathways, and outdoor furniture. Paralives' landscaping tools are more flexible than you might expect.
+        </p>
+
+        <h2>🚫 Mistake #13: Not Using Mods</h2>
+        <p>
+          The modding community is already active! Check our <a href="/articles/paralives-mod-installation-guide-2026">mod installation guide</a> and <a href="/articles/top-10-paralives-mods-week3-may2026">top mods list</a>. Quality-of-life mods can dramatically improve your experience.
+        </p>
+
+        <h2>🚫 Mistake #14: Playing on Low Settings</h2>
+        <p>
+          Paralives is <strong>surprisingly demanding</strong>. If you're experiencing lag, check our <a href="/articles/paralives-best-graphics-settings-2026">graphics settings guide</a> to find the sweet spot between performance and visuals.
+        </p>
+
+        <h2>🚫 Mistake #15: Not Backing Up Your Saves</h2>
+        <p>
+          Early Access updates can sometimes <strong>corrupt save files</strong>. Back up your saves regularly by copying the save folder to a safe location. It takes 10 seconds and can save hours of gameplay.
+        </p>
+
+        <div className="tip-box"><strong>💡 Pro tip:</strong> Join the Paralives community on Reddit and Discord to stay updated on bugs, patches, and new features. Learning from other players' experiences is the fastest way to improve!</div>
+
+        <h2>📺 Watch the Original Video</h2>
+        <div className="my-6" style={{position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden'}}>
+          <iframe src="https://www.youtube.com/embed/6QyxJwkGWgc" style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="15 Mistakes to AVOID in Paralives by ezlilyy"></iframe>
+        </div>
+      </>
+    ),
+
+    "10-tips-building-better-homes-paralives": (
+      <>
+        <p className="text-muted text-sm italic mb-6">
+          📺 Inspired by <a href="https://www.youtube.com/watch?v=6FlUDzSRiLE" target="_blank" rel="noopener noreferrer" className="text-terracotta hover:underline">moonie's YouTube video</a> — subscribe for more Paralives build content!
+        </p>
+
+        <p>
+          Building in Paralives is unlike any other life sim. The <strong>grid-free system</strong>, curved walls, and advanced customization tools give you incredible freedom — but also a steeper learning curve. Here are 10 tips to level up your builds.
+        </p>
+
+        <h2>🏡 Tip #1: Start with a Reference Image</h2>
+        <p>
+          Before you place a single wall, find a <strong>real house design</strong> you like. Pinterest, architectural websites, or even photos from your neighborhood work great. Having a reference keeps your build focused and realistic.
+        </p>
+
+        <h2>🏡 Tip #2: Use the Grid-Free System Wisely</h2>
+        <p>
+          Paralives' grid-free building is powerful, but <strong>purely freeform builds can look messy</strong>. Use the grid for structural walls, then go freeform for details like bay windows, angled rooms, and decorative elements.
+        </p>
+
+        <h2>🏡 Tip #3: Master Curved Walls</h2>
+        <p>
+          Curved walls are one of Paralives' <strong>signature features</strong>. Use them for: rounded dining nooks, turret-style rooms, curved staircases, and elegant entryways. They instantly make builds look more sophisticated.
+        </p>
+
+        <h2>🏡 Tip #4: Layer Your Roofing</h2>
+        <p>
+          Don't just slap one roof on top. <strong>Layer multiple roof pieces</strong> at different heights to create depth. Mix gable, hip, and flat roof sections for a professional look. Add dormers for extra character.
+        </p>
+
+        <h2>🏡 Tip #5: Build in Sections, Not All at Once</h2>
+        <p>
+          Build your house in <strong>logical sections</strong>: foundation → exterior walls → interior walls → roof → windows/doors → landscaping. This prevents the overwhelming feeling of trying to do everything at once.
+        </p>
+
+        <h2>🏡 Tip #6: Use the Resize Tool for Custom Furniture</h2>
+        <p>
+          Paralives lets you <strong>resize objects</strong>. Turn a small painting into a large statement piece, shrink a table to fit a tight space, or create custom-sized shelving. This opens up infinite decorating possibilities.
+        </p>
+
+        <h2>🏡 Tip #7: Create Depth with Wall Textures</h2>
+        <p>
+          Mix and match <strong>wall textures and colors</strong>. Use wainscoting on the lower half, paint or wallpaper on the upper half. Add accent walls in bedrooms. This creates visual interest without cluttering the space.
+        </p>
+
+        <h2>🏡 Tip #8: Don't Forget Outdoor Living Spaces</h2>
+        <p>
+          Great homes have <strong>outdoor areas</strong>: patios, decks, porches, and gardens. Use the landscaping tools to create pathways, add outdoor seating, and plant trees for shade. Your Parafolk will actually use these spaces.
+        </p>
+
+        <h2>🏡 Tip #9: Use Lighting Strategically</h2>
+        <p>
+          Lighting makes or breaks a build. <strong>Mix light sources</strong>: overhead for general lighting, table/floor lamps for ambiance, and accent lighting for dramatic effect. Warm-toned lights make rooms feel cozy.
+        </p>
+
+        <h2>🏡 Tip #10: Share Your Builds and Learn from Others</h2>
+        <p>
+          Upload your builds to the <strong>Steam Workshop</strong> and browse what others have created. You'll discover techniques you never thought of. The Paralives building community is incredibly creative and supportive.
+        </p>
+
+        <div className="tip-box"><strong>💡 Pro tip:</strong> Save your builds as blueprints! You can reuse them in future saves or share them with the community. Building a collection of go-to floor plans speeds up future gameplay.</div>
+
+        <h2>📺 Watch the Original Video</h2>
+        <div className="my-6" style={{position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden'}}>
+          <iframe src="https://www.youtube.com/embed/6FlUDzSRiLE" style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="10 Tips For Building Better Homes In Paralives by moonie"></iframe>
+        </div>
+
+        <h2>📚 Related Guides</h2>
+        <ul>
+          <li><a href="/articles/paralives-build-mode-basics-tools-guide">Build Mode Tools (2026 Beginner Guide)</a></li>
+          <li><a href="/articles/paralives-build-mode-advanced-tips">Advanced Build Mode Tips</a></li>
+          <li><a href="/articles/paralives-build-mode-masterclass-2026">Build Mode Masterclass</a></li>
+        </ul>
+      </>
+    ),
+
+    "10-paralives-build-features-change-everything": (
+      <>
+        <p className="text-muted text-sm italic mb-6">
+          📺 Based on <a href="https://www.youtube.com/watch?v=5qzevZxiia8" target="_blank" rel="noopener noreferrer" className="text-terracotta hover:underline">Geekism's YouTube video</a> — check out his channel for in-depth Paralives analysis!
+        </p>
+
+        <p>
+          Paralives introduces <strong>build features that no other life sim has</strong>. These aren't just incremental improvements — they fundamentally change how you approach building. Here are 10 features that will blow your mind.
+        </p>
+
+        <h2>⚡ Feature #1: True Grid-Free Building</h2>
+        <p>
+          Unlike The Sims' grid system (even with bb.moveobjects), Paralives offers <strong>complete freedom of placement</strong>. Place walls at any angle, position furniture with pixel precision, and create organic, non-rectangular room shapes. This is the most requested feature from life sim fans, and Paralives delivers.
+        </p>
+
+        <h2>⚡ Feature #2: Curved Walls & Organic Shapes</h2>
+        <p>
+          For the first time in a life sim, you can create <strong>genuinely curved walls</strong>. Build circular rooms, curved hallways, domed structures, and organic shapes. The tool is intuitive — drag to create curves of any radius.
+        </p>
+
+        <h2>⚡ Feature #3: Customizable Object Sizing</h2>
+        <p>
+          Every object in Paralives can be <strong>resized freely</strong>. Make a painting as large as a wall, shrink a bed to fit a tiny room, or create custom-sized windows. This eliminates the "I wish this came in a different size" frustration.
+        </p>
+
+        <h2>⚡ Feature #4: Multi-Level Foundations</h2>
+        <p>
+          Create split-level homes, sunken living rooms, and raised patios with <strong>variable foundation heights</strong>. Different rooms can have different floor levels, enabling architectural designs that were impossible before.
+        </p>
+
+        <h2>⚡ Feature #5: Advanced Roof Customization</h2>
+        <p>
+          The roof tool lets you create <strong>complex roof shapes</strong>: hip, gable, mansard, gambrel, flat, and custom combinations. Adjust pitch, overhang, and material independently for each roof section.
+        </p>
+
+        <h2>⚡ Feature #6: Wall Height Customization</h2>
+        <p>
+          Set <strong>different wall heights for different rooms</strong>. Create a grand foyer with tall ceilings, then transition to cozy standard-height bedrooms. This adds architectural drama that was impossible in other life sims.
+        </p>
+
+        <h2>⚡ Feature #7: Terrain Sculpting</h2>
+        <p>
+          Shape the land around your home with <strong>terrain tools</strong>. Create hills, slopes, valleys, and plateaus. Build a house on a hillside, create a sunken garden, or make a flat lot for a modern build.
+        </p>
+
+        <h2>⚡ Feature #8: Custom Color & Pattern Swatches</h2>
+        <p>
+          Paralives uses a <strong>color wheel system</strong> instead of preset swatches. Choose any color for any surface — walls, floors, furniture, and objects. Combine with custom patterns for truly unique interiors.
+        </p>
+
+        <h2>⚡ Feature #9: Blueprint Sharing System</h2>
+        <p>
+          Save your builds as <strong>shareable blueprints</strong> via the Steam Workshop. Other players can download and place your creations in their game. This creates a community-driven content ecosystem from day one.
+        </p>
+
+        <h2>⚡ Feature #10: Live Build Mode Preview</h2>
+        <p>
+          See how your build looks <strong>in real-time as you construct</strong>. No more building, then switching to live mode to check if it looks right. The preview updates instantly, saving you time and frustration.
+        </p>
+
+        <div className="tip-box"><strong>💡 Pro tip:</strong> Combine these features for maximum impact. Use curved walls + custom colors + terrain sculpting to create builds that look like they belong in an architecture magazine. The only limit is your imagination!</div>
+
+        <h2>📺 Watch the Original Video</h2>
+        <div className="my-6" style={{position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden'}}>
+          <iframe src="https://www.youtube.com/embed/5qzevZxiia8" style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="10 Paralives Build Features That Change Everything by Geekism"></iframe>
+        </div>
+
+        <h2>📚 Related Guides</h2>
+        <ul>
+          <li><a href="/articles/paralives-build-mode-basics-tools-guide">Build Mode Tools Guide</a></li>
+          <li><a href="/articles/paralives-build-mode-tutorial-box-to-mansion">From Box to Mansion Tutorial</a></li>
+          <li><a href="/articles/10-tips-building-better-homes-paralives">10 Tips for Building Better Homes</a></li>
+        </ul>
+      </>
+    ),
   };
 
   const content = articleContent[slug] || (
