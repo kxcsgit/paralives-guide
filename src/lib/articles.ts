@@ -439,6 +439,38 @@ export const articles: Article[] = [
     publishedAt: "2026-05-28",
     updatedAt: "2026-05-28",
   },
+
+  // News & Updates
+  {
+    slug: "paralives-known-issues-bugs-workarounds-2026",
+    title: "Known Issues & Bug Workarounds",
+    description: "Official bug list, workarounds, and what the devs are fixing next.",
+    category: "getting-started",
+    icon: "🐛",
+    readTime: "6 min read",
+    publishedAt: "2026-05-28",
+    updatedAt: "2026-05-28",
+  },
+  {
+    slug: "paralives-among-us-collab-guide",
+    title: "Among Us Collaboration: Emergency Meeting!",
+    description: "How to find the Among Us Easter eggs and crossover content.",
+    category: "achievements-secrets",
+    icon: "📮",
+    readTime: "5 min read",
+    publishedAt: "2026-05-28",
+    updatedAt: "2026-05-28",
+  },
+  {
+    slug: "paralives-early-access-roadmap-2026",
+    title: "Early Access Roadmap: What's Coming Next",
+    description: "Free updates planned: pets, cars, pools, weather, and more.",
+    category: "getting-started",
+    icon: "🗺️",
+    readTime: "7 min read",
+    publishedAt: "2026-05-28",
+    updatedAt: "2026-05-28",
+  },
 ];
 
 export function getArticlesByCategory(categoryId: string): Article[] {

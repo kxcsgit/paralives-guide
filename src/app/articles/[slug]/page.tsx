@@ -2381,6 +2381,179 @@ export default async function ArticlePage({
         </ul>
       </>
     ),
+
+    // ==================== NEWS & UPDATES ARTICLES ====================
+    "paralives-known-issues-bugs-workarounds-2026": (
+      <>
+        <div className="bg-red-50 border border-red-200 rounded-xl p-6 mb-8">
+          <p className="text-red-800 font-semibold">
+            ⚠️ Last Updated: May 28, 2026 — Paralives is in Early Access. Bugs are expected.
+          </p>
+        </div>
+
+        <p>
+          Paralives launched in Early Access on May 25, 2026. The community has been actively reporting bugs. Here are the official known issues and workarounds.
+        </p>
+
+        <h2>🐛 Critical Issues</h2>
+        <ul>
+          <li><strong>Save file corruption:</strong> Some players report save files becoming corrupted after extended play. <em>Workaround:</em> Save frequently and use multiple save slots.</li>
+          <li><strong>Crashes during build mode:</strong> Game may crash with complex curved walls or rapid resizing. <em>Workaround:</em> Save before major building sessions.</li>
+          <li><strong>Performance drops:</strong> Significant FPS drops in large lots. <em>Workaround:</em> Reduce graphics settings or simplify builds.</li>
+        </ul>
+
+        <h2>🟡 Gameplay Issues</h2>
+        <ul>
+          <li><strong>Parafolk getting stuck:</strong> Characters may get stuck in objects. <em>Workaround:</em> Use "Reset Sim" in pause menu.</li>
+          <li><strong>Career progression bugs:</strong> Some careers may not advance properly. <em>Workaround:</em> Save before promotions.</li>
+          <li><strong>Relationship glitches:</strong> Social interactions may not register. <em>Workaround:</em> Try different interactions or restart.</li>
+        </ul>
+
+        <h2>🔧 General Troubleshooting</h2>
+        <ol>
+          <li>Verify game files: Steam → Right-click Paralives → Properties → Local Files → Verify Integrity</li>
+          <li>Update graphics drivers</li>
+          <li>Lower graphics settings (see our <a href="/articles/paralives-best-graphics-settings-2026">settings guide</a>)</li>
+          <li>Disable mods if using any</li>
+          <li>Restart the game</li>
+        </ol>
+
+        <h2>📝 How to Report Bugs</h2>
+        <ul>
+          <li><strong>Steam Forums:</strong> Paralives community discussions</li>
+          <li><strong>Discord:</strong> Official Paralives Discord (bug-report channel)</li>
+          <li><strong>Email:</strong> Contact through official website</li>
+        </ul>
+
+        <div className="tip-box"><strong>💡 Pro tip:</strong> Include system specs, what you were doing when the bug occurred, and a screenshot when reporting bugs.</div>
+      </>
+    ),
+
+    "paralives-among-us-collab-guide": (
+      <>
+        <p>
+          Paralives launched with a surprise <strong>Among Us collaboration</strong>! The release day patch included an emergency meeting Easter egg and crossover content.
+        </p>
+
+        <h2>📮 What is the Among Us Collab?</h2>
+        <p>
+          The release day celebration included a crossover with <strong>Among Us</strong>:
+        </p>
+        <ul>
+          <li><strong>Emergency Meeting Easter Egg:</strong> A special event that triggers in-game</li>
+          <li><strong>Among Us-themed items:</strong> Decorative objects referencing the game</li>
+          <li><strong>Special interactions:</strong> Social events inspired by Among Us</li>
+        </ul>
+
+        <h2>🔍 How to Find the Content</h2>
+        <ol>
+          <li>Update your game to the latest patch</li>
+          <li>Explore community lots and public spaces</li>
+          <li>Look for the Emergency Meeting event (triggers randomly)</li>
+          <li>Check build mode catalog for new items</li>
+        </ol>
+
+        <h2>🎮 Other Collaborations</h2>
+
+        <h3>🏕️ Outbound Game Collab</h3>
+        <p>Includes a mini scale camper-van decoration and special interactions. Bundle available on Steam.</p>
+
+        <h3>⛏️ Kitfox Games (Dwarf Fortress & Boyfriend Dungeon)</h3>
+        <p>Crossover content with references from both games. Bundle deals available.</p>
+
+        <h3>🏠 House Flipper 2 Bundle</h3>
+        <p>Special bundle was available during release week.</p>
+
+        <div className="tip-box"><strong>💡 Pro tip:</strong> The Among Us Emergency Meeting event is random! Keep playing and exploring to trigger it.</div>
+      </>
+    ),
+
+    "paralives-early-access-roadmap-2026": (
+      <>
+        <div className="bg-green-50 border border-green-200 rounded-xl p-6 mb-8">
+          <p className="text-green-800 font-semibold">
+            🎉 Developer Promise: "We have pledged to never release paid DLCs: there will only ever be free updates!"
+          </p>
+        </div>
+
+        <p>
+          The Paralives team released their <strong>Post-Release Roadmap</strong> for Early Access. Here's what's coming — all for free.
+        </p>
+
+        <h2>🗺️ Planned Features</h2>
+
+        <h3>🌦️ Weather & Seasons</h3>
+        <p>Dynamic weather (rain, snow, sunshine) and seasonal changes affecting gameplay.</p>
+
+        <h3>🐕 Pets: Dogs, Cats & Horses</h3>
+        <ul>
+          <li>Dogs: Multiple breeds, training, walks</li>
+          <li>Cats: Independent companions</li>
+          <li>Horses: Riding and equestrian activities</li>
+        </ul>
+
+        <h3>🚗 Cars & Bikes</h3>
+        <p>Drivable vehicles with customization, bicycles, and motorcycles.</p>
+
+        <h3>🚤 Boats & Houseboats</h3>
+        <p>Recreational boats, houseboats as living spaces, waterfront activities.</p>
+
+        <h3>🏊 Pools & Swimming</h3>
+        <p>Build custom pools, community water parks, swimming skills.</p>
+
+        <h3>📅 Calendar & Social Events</h3>
+        <ul>
+          <li>Parties and social gatherings</li>
+          <li>Weddings and celebrations</li>
+          <li>Holidays and seasonal events</li>
+        </ul>
+
+        <h3>👥 Story Progression for NPCs</h3>
+        <p>NPCs form relationships, advance careers, and have life events autonomously.</p>
+
+        <h3>👨‍👩‍👧‍👦 Family Tree</h3>
+        <p>Visual family tree tracking generations, relationships, and lineage.</p>
+
+        <h3>🌱 Gardening & Fishing</h3>
+        <p>Grow plants, catch fish, and engage in agricultural activities.</p>
+
+        <h3>🏗️ Town Creation Tools</h3>
+        <p>Edit and create towns, place community lots, design neighborhoods.</p>
+
+        <h3>🎭 More Content</h3>
+        <p>Additional personality traits, wants, emotions, jobs, furniture, clothing, and social interactions.</p>
+
+        <h2>💰 Pricing Strategy</h2>
+        <ul>
+          <li>Price increases gradually as content is added</li>
+          <li>Current: $39.99 (10% launch discount: $35.99)</li>
+          <li>Buy early for lowest price</li>
+          <li>All future updates are free forever</li>
+        </ul>
+
+        <div className="tip-box"><strong>💡 Pro tip:</strong> Buy now during Early Access for the lowest price. All future content updates are free!</div>
+
+        <h2>📊 Paralives vs The Sims 4</h2>
+        <table>
+          <thead>
+            <tr><th>Feature</th><th>Paralives</th><th>The Sims 4</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Pets</td><td>Free update</td><td>$39.99 expansion</td></tr>
+            <tr><td>Seasons</td><td>Free update</td><td>$39.99 expansion</td></tr>
+            <tr><td>Cars</td><td>Free update</td><td>Not available</td></tr>
+            <tr><td>Weather</td><td>Free update</td><td>$39.99 expansion</td></tr>
+          </tbody>
+        </table>
+
+        <h2>📅 Timeline Estimate</h2>
+        <ul>
+          <li><strong>Short-term (1-3 months):</strong> Bug fixes, stability, QoL updates</li>
+          <li><strong>Medium-term (3-6 months):</strong> Weather, pets, vehicles</li>
+          <li><strong>Long-term (6-12 months):</strong> Town tools, full release</li>
+        </ul>
+      </>
+    ),
   };
 
   const content = articleContent[slug] || (
