@@ -2554,6 +2554,186 @@ export default async function ArticlePage({
         </ul>
       </>
     ),
+
+    "paralives-first-gameplay-guide": (
+      <>
+        <p><em>Based on Ashley (Asher Plays)&apos;s first gameplay session. Watch the full video for visual demonstrations.</em></p>
+
+        <h2>🚀 Getting Started</h2>
+        <p>When you first launch Paralives, you&apos;ll be greeted with a welcoming introduction. The game offers <strong>6 pre-made households</strong> to choose from, each with unique personalities and backstories. You can also create your own household from scratch.</p>
+        <div className="tip-box"><strong>💡 Key Points:</strong> Choose from pre-made households or create your own. Each household has a unique story and personality. The game starts with a tutorial to guide you through the basics.</div>
+
+        <h2>🎥 Camera Controls</h2>
+        <p>Paralives uses intuitive camera controls similar to other life simulation games:</p>
+        <div className="career-table"><table><thead><tr><th>Action</th><th>Control</th></tr></thead><tbody>
+          <tr><td>Move Camera</td><td>WASD Keys</td></tr>
+          <tr><td>Rotate View</td><td>Right Mouse Button + Drag</td></tr>
+          <tr><td>Zoom In/Out</td><td>Mouse Scroll Wheel</td></tr>
+          <tr><td>Tilt Camera</td><td>Middle Mouse Button + Drag</td></tr>
+        </tbody></table></div>
+        <div className="tip-box"><strong>💡 Pro Tips:</strong> Use WASD for smooth camera movement. Right-click and drag to rotate around your lot. Scroll wheel zooms in and out. Press Tab to switch between camera modes.</div>
+
+        <h2>👨‍👩‍👧‍👦 Pre-Made Households</h2>
+        <p>Paralives comes with <strong>6 pre-made households</strong>, each with distinct personalities and stories:</p>
+        <ul>
+          <li><strong>The Newcomers:</strong> A young couple starting their life in Paramnia. Perfect for beginners.</li>
+          <li><strong>The Artists:</strong> A creative household focused on art and expression.</li>
+          <li><strong>The Athletes:</strong> Active and competitive, loves sports and outdoor activities.</li>
+          <li><strong>The Bookworms:</strong> Intellectual and curious, always seeking knowledge.</li>
+          <li><strong>The Party Animals:</strong> Social butterflies who love throwing parties.</li>
+          <li><strong>The Traditionalists:</strong> A classic family with traditional values.</li>
+        </ul>
+
+        <h2>🎨 The Paramaker: Character Creation</h2>
+        <p>The <strong>Paramaker</strong> is Paralives&apos; character creation system, offering unprecedented customization options:</p>
+
+        <h3>Skin Tone System</h3>
+        <ul>
+          <li><strong>Color Wheel Selection:</strong> Choose from a wide spectrum of skin tones</li>
+          <li><strong>Realistic Gradients:</strong> Natural-looking skin tone variations</li>
+          <li><strong>Undertone Options:</strong> Adjust warm, cool, or neutral undertones</li>
+        </ul>
+
+        <h3>Body Customization</h3>
+        <ul>
+          <li><strong>Height Adjustment:</strong> Slide to set character height</li>
+          <li><strong>Body Shape:</strong> Modify body proportions naturally</li>
+          <li><strong>Facial Features:</strong> Detailed control over facial structure</li>
+        </ul>
+
+        <h3>Clothing & Style</h3>
+        <ul>
+          <li><strong>Casual Wear:</strong> Everyday outfits for daily activities</li>
+          <li><strong>Formal Attire:</strong> Dress clothes for special occasions</li>
+          <li><strong>Work Uniforms:</strong> Career-specific clothing</li>
+          <li><strong>Accessories:</strong> Hats, glasses, jewelry, and more</li>
+        </ul>
+
+        <h2>🧠 Personality System</h2>
+        <p>Paralives features a unique <strong>Personality Point System</strong> that defines your character&apos;s traits across four core categories:</p>
+        <div className="career-table"><table><thead><tr><th>Category</th><th>Spectrum</th><th>Effects</th></tr></thead><tbody>
+          <tr><td>Vibe (氛围)</td><td>Cheerful ↔ Serious</td><td>Affects social interactions and mood</td></tr>
+          <tr><td>Social (社交)</td><td>Outgoing ↔ Introverted</td><td>Determines social preferences</td></tr>
+          <tr><td>Talent (天赋)</td><td>Creative ↔ Analytical</td><td>Influences skill learning speed</td></tr>
+          <tr><td>Lifestyle (生活方式)</td><td>Active ↔ Relaxed</td><td>Determines energy and activity preferences</td></tr>
+        </tbody></table></div>
+        <div className="tip-box"><strong>💡 Allocations:</strong> Each category has a slider from 0-100. You can distribute points freely. No &quot;wrong&quot; choices — all combinations create unique gameplay.</div>
+
+        <h2>🏠 Buying Your First Home</h2>
+        <p>When starting a new game, you&apos;ll have <strong>35,000 Paradigm</strong> (the in-game currency) to purchase your first home:</p>
+        <ul>
+          <li><strong>Starter Homes:</strong> Small apartments, tiny houses, shared housing</li>
+          <li><strong>Mid-Range Options:</strong> Suburban houses, modern condos, cottage style</li>
+          <li><strong>Luxury Properties:</strong> Mansions, penthouses, custom builds</li>
+        </ul>
+        <div className="tip-box"><strong>💡 Budget Tips:</strong> Start small and upgrade later. Save money by sharing housing. Focus on essential rooms first (bedroom, bathroom, kitchen).</div>
+
+        <h2>📋 Your First Day</h2>
+        <p>The first day in Paralives is designed to teach you the basics through a series of tutorial objectives:</p>
+        <ul>
+          <li>Explore your home</li>
+          <li>Meet your neighbors</li>
+          <li>Get a job</li>
+          <li>Buy groceries</li>
+          <li>Customize your space</li>
+        </ul>
+
+        <h2>💼 Jobs & Careers</h2>
+        <p>Paralives offers <strong>10+ career paths</strong> with unique schedules and requirements:</p>
+        <div className="career-table"><table><thead><tr><th>Career</th><th>Schedule</th><th>Requirements</th></tr></thead><tbody>
+          <tr><td>Artist</td><td>Flexible</td><td>Creative personality</td></tr>
+          <tr><td>Chef</td><td>Morning-Evening</td><td>Cooking skill</td></tr>
+          <tr><td>Doctor</td><td>Day Shift</td><td>Intelligence, Education</td></tr>
+          <tr><td>Engineer</td><td>Day Shift</td><td>Analytical skills</td></tr>
+          <tr><td>Musician</td><td>Evening-Night</td><td>Musical talent</td></tr>
+          <tr><td>Police Officer</td><td>Rotating</td><td>Physical fitness</td></tr>
+          <tr><td>Scientist</td><td>Day Shift</td><td>Research skills</td></tr>
+          <tr><td>Teacher</td><td>Morning-Afternoon</td><td>Communication</td></tr>
+          <tr><td>Writer</td><td>Flexible</td><td>Creative writing</td></tr>
+          <tr><td>Athlete</td><td>Training + Events</td><td>Physical fitness</td></tr>
+        </tbody></table></div>
+
+        <h2>🏘️ Exploring the Town</h2>
+        <p>Paramnia is an <strong>open-world town</strong> with various locations to explore:</p>
+        <ul>
+          <li><strong>Commercial District:</strong> Grocery store, clothing store, electronics shop</li>
+          <li><strong>Social Spots:</strong> Café, restaurant, park</li>
+          <li><strong>Community Areas:</strong> Library, gym, community center</li>
+          <li><strong>Outdoor Spaces:</strong> Beach, forest, gardens</li>
+        </ul>
+
+        <h2>💕 Social Interactions</h2>
+        <p>Building relationships is a core part of Paralives:</p>
+        <ul>
+          <li><strong>Friendly:</strong> Chat, compliment, tell joke, share interest</li>
+          <li><strong>Romantic:</strong> Flirt, ask on date, confess love, propose</li>
+          <li><strong>Negative:</strong> Argue, insult, ignore</li>
+        </ul>
+        <div className="tip-box"><strong>💡 Relationship Building:</strong> Spend time with others, engage in shared activities, give gifts and compliments, be consistent in your interactions.</div>
+
+        <h2>😊 Emotions & Mood System</h2>
+        <p>Paralives features a sophisticated <strong>emotion system</strong> that affects gameplay:</p>
+        <div className="career-table"><table><thead><tr><th>Emotion</th><th>Triggers</th><th>Effects</th></tr></thead><tbody>
+          <tr><td>Happy</td><td>Positive interactions, achievements</td><td>Better social performance</td></tr>
+          <tr><td>Sad</td><td>Loss, rejection, loneliness</td><td>Reduced activity motivation</td></tr>
+          <tr><td>Angry</td><td>Conflicts, unfair situations</td><td>Aggressive behavior</td></tr>
+          <tr><td>Excited</td><td>New experiences, surprises</td><td>Increased energy</td></tr>
+          <tr><td>Tired</td><td>Overwork, lack of rest</td><td>Reduced performance</td></tr>
+        </tbody></table></div>
+
+        <h2>🃏 Story Cards</h2>
+        <p>Every evening, you&apos;ll receive <strong>Story Cards</strong> that present unique scenarios and choices:</p>
+        <ul>
+          <li>Appear at the end of each day</li>
+          <li>Present a narrative scenario</li>
+          <li>Offer multiple response options</li>
+          <li>Affect relationships and story progression</li>
+        </ul>
+
+        <h2>🐛 Known Bugs & Issues</h2>
+        <p>As Paralives is in <strong>Early Access</strong>, some bugs are expected:</p>
+        <ul>
+          <li><strong>Pathfinding:</strong> Characters may get stuck occasionally</li>
+          <li><strong>Autonomy:</strong> Some autonomous actions need tuning</li>
+          <li><strong>Performance:</strong> Optimization still in progress</li>
+          <li><strong>Save Files:</strong> Occasional save corruption</li>
+        </ul>
+        <div className="tip-box"><strong>⚠️ Workarounds:</strong> Save frequently. Report bugs through the in-game feedback system. Check community forums for known issues.</div>
+
+        <h2>💡 Tips & First Impressions</h2>
+        <h3>Beginner Tips</h3>
+        <ol>
+          <li><strong>Start Simple:</strong> Don&apos;t overcomplicate your first household</li>
+          <li><strong>Explore Everything:</strong> Take time to discover all features</li>
+          <li><strong>Experiment Freely:</strong> Try different personality combinations</li>
+          <li><strong>Save Often:</strong> Protect your progress</li>
+          <li><strong>Join Community:</strong> Share experiences with other players</li>
+        </ol>
+
+        <h3>What Makes Paralives Special</h3>
+        <p><strong>Pros:</strong> Deep character customization, intuitive building tools, emotional depth in relationships, beautiful art style, active development team.</p>
+        <p><strong>Cons:</strong> Early Access bugs, limited content (for now), performance issues on lower-end PCs, some features still missing.</p>
+
+        <h2>🎬 Video Reference</h2>
+        <p>This guide is based on Ashley (Asher Plays)&apos;s first gameplay session:</p>
+        <div className="career-table"><table><thead><tr><th>Timestamp</th><th>Topic</th></tr></thead><tbody>
+          <tr><td>0:38</td><td>Getting Started</td></tr>
+          <tr><td>1:26</td><td>Camera Controls</td></tr>
+          <tr><td>2:10</td><td>Pre-Made Households</td></tr>
+          <tr><td>2:50</td><td>The Paramaker</td></tr>
+          <tr><td>5:30</td><td>Personality System</td></tr>
+          <tr><td>7:15</td><td>Buying Your First Home</td></tr>
+          <tr><td>8:30</td><td>Your First Day</td></tr>
+          <tr><td>9:00</td><td>Emotions & Mood</td></tr>
+          <tr><td>10:45</td><td>Jobs & Careers</td></tr>
+          <tr><td>13:30</td><td>Story Cards</td></tr>
+          <tr><td>14:20</td><td>Exploring the Town</td></tr>
+          <tr><td>16:00</td><td>Social Interactions</td></tr>
+          <tr><td>18:40</td><td>Known Bugs</td></tr>
+          <tr><td>20:00</td><td>Tips & First Impressions</td></tr>
+        </tbody></table></div>
+      </>
+    ),
   };
 
   const content = articleContent[slug] || (

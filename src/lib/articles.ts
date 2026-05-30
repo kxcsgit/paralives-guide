@@ -471,6 +471,18 @@ export const articles: Article[] = [
     publishedAt: "2026-05-28",
     updatedAt: "2026-05-28",
   },
+
+  // YouTube Video Guides
+  {
+    slug: "paralives-first-gameplay-guide",
+    title: "First Gameplay Guide: Everything You Need to Know",
+    description: "Complete beginner's guide based on Ashley's first gameplay session — character creation, building, jobs, emotions, and more.",
+    category: "getting-started",
+    icon: "🎮",
+    readTime: "12 min read",
+    publishedAt: "2026-05-28",
+    updatedAt: "2026-05-28",
+  },
 ];
 
 export function getArticlesByCategory(categoryId: string): Article[] {
