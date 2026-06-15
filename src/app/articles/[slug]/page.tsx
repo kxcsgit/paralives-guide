@@ -2734,6 +2734,757 @@ export default async function ArticlePage({
         </tbody></table></div>
       </>
     ),
+
+    // ===== 6月新增攻略内容 =====
+    
+    // v1.0.4 补丁说明
+    "paralives-v104-patch-notes": (
+      <>
+        <h2>🔧 v1.0.4 Patch Notes</h2>
+        <p>Released on <strong>June 1, 2026</strong>, this update focuses on stability improvements and bug fixes.</p>
+        
+        <h3>🐛 Bug Fixes (12 Crash Fixes)</h3>
+        <ol>
+          <li><strong>Fixed crash</strong> when loading save files with corrupted furniture data</li>
+          <li><strong>Fixed crash</strong> when switching between build mode and live mode rapidly</li>
+          <li><strong>Fixed crash</strong> when placing curved walls near lot boundaries</li>
+          <li><strong>Fixed crash</strong> when deleting rooms with stacked objects</li>
+          <li><strong>Fixed crash</strong> when using the eyedropper tool on custom-colored items</li>
+          <li><strong>Fixed crash</strong> when Paras attempt to use deleted furniture</li>
+          <li><strong>Fixed crash</strong> during save file auto-backup on Windows</li>
+          <li><strong>Fixed crash</strong> when opening the gallery with 100+ subscribed items</li>
+          <li><strong>Fixed crash</strong> when resizing windows to minimum dimensions</li>
+          <li><strong>Fixed crash</strong> when multiple Paras interact with the same object simultaneously</li>
+          <li><strong>Fixed crash</strong> when loading custom content with missing textures</li>
+          <li><strong>Fixed crash</strong> when using keyboard shortcuts during loading screens</li>
+        </ol>
+        
+        <h3>⚡ Performance Improvements</h3>
+        <ul>
+          <li>Reduced memory usage by 15% when loading large lots</li>
+          <li>Improved frame rate in build mode with 500+ objects</li>
+          <li>Faster save file loading (20% improvement)</li>
+          <li>Optimized texture streaming for lower-end PCs</li>
+        </ul>
+        
+        <h3>🎮 Gameplay Fixes</h3>
+        <ul>
+          <li>Fixed Paras getting stuck in walls after using curved stairs</li>
+          <li>Fixed incorrect skill gain rates for Cooking and Handiness</li>
+          <li>Fixed relationships not saving properly when switching households</li>
+          <li>Fixed career promotion requirements not displaying correctly</li>
+        </ul>
+        
+        <div className="tip-box"><strong>💡 Recommendation:</strong> Update immediately for better stability. All save files from v1.0.3 are compatible.</div>
+      </>
+    ),
+    
+    // 地下室开发更新
+    "paralives-basement-update-september-beta": (
+      <>
+        <h2>🗺️ Basement Update & September Beta Plan</h2>
+        <p>The Paralives development team has revealed exciting news about the upcoming basement feature and the September beta plan.</p>
+        
+        <h3>🏠 Basements Coming in September Beta</h3>
+        <p>Basements have been one of the most requested features since the game's launch. The developers have confirmed that basements will be included in the <strong>September 2026 beta update</strong>.</p>
+        
+        <h3>🔧 What to Expect</h3>
+        <ul>
+          <li><strong>Multi-level basements:</strong> Up to 2 levels deep</li>
+          <li><strong>Full build mode support:</strong> All build tools work in basements</li>
+          <li><strong>Custom stairs:</strong> Spiral, L-shaped, and U-shaped stairs for basement access</li>
+          <li><strong>Lighting solutions:</strong> New window wells and artificial lighting options</li>
+          <li><strong>Foundation options:</strong> Choose between slab, crawl space, or full basement</li>
+        </ul>
+        
+        <h3>📅 Development Roadmap</h3>
+        <div className="career-table"><table><thead><tr><th>Phase</th><th>Timeline</th><th>Features</th></tr></thead><tbody>
+          <tr><td>Phase 1</td><td>July 2026</td><td>Internal testing of basement mechanics</td></tr>
+          <tr><td>Phase 2</td><td>August 2026</td><td>Beta access for Patreon supporters</td></tr>
+          <tr><td>Phase 3</td><td>September 2026</td><td>Public beta release</td></tr>
+          <tr><td>Full Release</td><td>October 2026</td><td>Stable release with all basement features</td></tr>
+        </tbody></table></div>
+        
+        <h3>💡 Community Feedback</h3>
+        <p>The developers are actively listening to community feedback. Key requests include:</p>
+        <ul>
+          <li>Basement garages with car access</li>
+          <li>Basement pools and water features</li>
+          <li>Custom basement shapes (not just rectangular)</li>
+          <li>Basement windows for natural light</li>
+        </ul>
+        
+        <div className="tip-box"><strong>🎯 How to Participate:</strong> Join the official Discord server to provide feedback and get early access to beta updates.</div>
+      </>
+    ),
+    
+    // 15个隐藏互动/彩蛋
+    "paralives-15-hidden-interactions-easter-eggs": (
+      <>
+        <h2>🥚 15 Hidden Interactions & Easter Eggs</h2>
+        <p>Paralives is packed with secrets that most players miss. Here are 15 hidden interactions and Easter eggs you need to discover:</p>
+        
+        <h3>🎭 Hidden Social Interactions</h3>
+        <ol>
+          <li><strong>Secret Handshake:</strong> Have two Paras with the "Creative" trait interact — they'll perform a unique handshake animation</li>
+          <li><strong>Whisper Secret:</strong> Click on a Para with high relationship (80+) — "Whisper" option appears with funny dialogue</li>
+          <li><strong>Dance Together:</strong> Play music near two Paras with "Musical" trait — they'll start dancing together</li>
+          <li><strong>High Five:</strong> After a successful career promotion, other Paras will offer high fives</li>
+          <li><strong>Group Photo:</strong> Place a camera in a room with 3+ Paras — "Take Group Photo" interaction appears</li>
+        </ol>
+        
+        <h3>🏠 Build Mode Secrets</h3>
+        <ol start="6">
+          <li><strong>Hidden Wallpaper:</strong> In the wallpaper menu, scroll to the very end — there's a secret "Developer Special" pattern</li>
+          <li><strong>Secret Furniture:</strong> Type "devmode" in the search bar to unlock developer-only furniture</li>
+          <li><strong>Color Code:</strong> Enter hex code #FF6B6B for a special "Developer Red" color</li>
+          <li><strong>Hidden Object:</strong> Place 10 plants in a room — a secret garden gnome appears</li>
+          <li><strong>Secret Roof:</strong> Create a roof with exactly 7 sides — it becomes a "Lucky Roof" with sparkles</li>
+        </ol>
+        
+        <h3>🎮 Gameplay Secrets</h3>
+        <ol start="11">
+          <li><strong>Mysterious NPC:</strong> At 3 AM, a mysterious figure appears in the park — interact to unlock a secret quest</li>
+          <li><strong>Hidden Career:</strong> Reach level 10 in both Logic and Creativity — unlocks the "Game Developer" career</li>
+          <li><strong>Secret Recipe:</strong> Cook with exactly 3 different ingredients — chance to create "Grandma's Secret Recipe"</li>
+          <li><strong>Hidden Achievement:</strong> Have a Para live to age 100 — unlocks "Century Club" achievement</li>
+          <li><strong>Developer Cameo:</strong> The lead developer's Para appears in the game — find them in the downtown area</li>
+        </ol>
+        
+        <div className="tip-box"><strong>💡 Pro Tip:</strong> Some Easter eggs only appear after specific conditions are met. Experiment with different combinations!</div>
+      </>
+    ),
+    
+    // 职业Tier List
+    "paralives-career-tier-list-8-jobs-ranked": (
+      <>
+        <h2>📊 Career Tier List: All 8 Jobs Ranked</h2>
+        <p>Not all careers are created equal. Here's our complete ranking of every career in Paralives based on salary, work-life balance, and skill requirements.</p>
+        
+        <h3>🏆 S Tier (Best Careers)</h3>
+        <div className="career-table"><table><thead><tr><th>Career</th><th>Max Salary</th><th>Work Hours</th><th>Why It's S Tier</th></tr></thead><tbody>
+          <tr><td>🎨 <strong>Art</strong></td><td>§2,500/day</td><td>Flexible</td><td>Highest salary, flexible hours, creative fulfillment</td></tr>
+          <tr><td>💻 <strong>Tech</strong></td><td>§2,200/day</td><td>9 AM - 5 PM</td><td>Great salary, work-from-home option, skill synergy</td></tr>
+        </tbody></table></div>
+        
+        <h3>🥈 A Tier (Great Careers)</h3>
+        <div className="career-table"><table><thead><tr><th>Career</th><th>Max Salary</th><th>Work Hours</th><th>Why It's A Tier</th></tr></thead><tbody>
+          <tr><td>🏥 <strong>Medical</strong></td><td>§2,000/day</td><td>Shifts</td><td>High salary, prestigious, but demanding hours</td></tr>
+          <tr><td>💼 <strong>Business</strong></td><td>§1,800/day</td><td>9 AM - 6 PM</td><td>Good salary, clear promotion path, networking bonuses</td></tr>
+        </tbody></table></div>
+        
+        <h3>🥉 B Tier (Good Careers)</h3>
+        <div className="career-table"><table><thead><tr><th>Career</th><th>Max Salary</th><th>Work Hours</th><th>Why It's B Tier</th></tr></thead><tbody>
+          <tr><td>🍳 <strong>Culinary</strong></td><td>§1,500/day</td><td>Shifts</td><td>Decent salary, skill-building, but irregular hours</td></tr>
+          <tr><td>🎓 <strong>Education</strong></td><td>§1,200/day</td><td>8 AM - 3 PM</td><td>Great work-life balance, summers off, but lower salary</td></tr>
+        </tbody></table></div>
+        
+        <h3>⚠️ C Tier (Average Careers)</h3>
+        <div className="career-table"><table><thead><tr><th>Career</th><th>Max Salary</th><th>Work Hours</th><th>Why It's C Tier</th></tr></thead><tbody>
+          <tr><td>🏗️ <strong>Construction</strong></td><td>§1,000/day</td><td>7 AM - 4 PM</td><td>Physically demanding, average salary, limited promotion</td></tr>
+          <tr><td>👮 <strong>Public Service</strong></td><td>§900/day</td><td>Shifts</td><td>Lowest salary, demanding, but noble work</td></tr>
+        </tbody></table></div>
+        
+        <h3>💡 Career Tips</h3>
+        <ul>
+          <li><strong>Art + Musical Trait:</strong> Double salary bonus</li>
+          <li><strong>Tech + Analytical Trait:</strong> Faster promotions</li>
+          <li><strong>Medical + Athletic Trait:</strong> Reduced fatigue</li>
+          <li><strong>Business + Social Trait:</strong> Networking bonuses</li>
+        </ul>
+        
+        <div className="tip-box"><strong>🎯 Best Starter Career:</strong> Tech offers the best balance of salary, hours, and growth potential for new players.</div>
+      </>
+    ),
+    
+    // 厨房布局黄金三角
+    "paralives-kitchen-golden-triangle-layout": (
+      <>
+        <h2>🍳 Kitchen Layout: The Golden Triangle Guide</h2>
+        <p>The "Golden Triangle" is a kitchen design principle that optimizes workflow by positioning the three most important elements — stove, sink, and refrigerator — in a triangular formation.</p>
+        
+        <h3>🔺 What is the Golden Triangle?</h3>
+        <p>The Golden Triangle minimizes movement between the three most-used kitchen areas:</p>
+        <ul>
+          <li><strong>Stove/Cooktop:</strong> Where food is cooked</li>
+          <li><strong>Sink:</strong> Where food is washed and dishes are cleaned</li>
+          <li><strong>Refrigerator:</strong> Where food is stored</li>
+        </ul>
+        
+        <h3>📐 Ideal Triangle Dimensions</h3>
+        <div className="career-table"><table><thead><tr><th>Side</th><th>Length</th><th>Purpose</th></tr></thead><tbody>
+          <tr><td>Stove → Sink</td><td>1.2 - 1.8m</td><td>Easy access for cooking and cleaning</td></tr>
+          <tr><td>Sink → Fridge</td><td>1.2 - 1.8m</td><td>Quick food prep and storage</td></tr>
+          <tr><td>Fridge → Stove</td><td>1.8 - 2.4m</td><td>Efficient ingredient retrieval</td></tr>
+        </tbody></table></div>
+        
+        <h3>🏠 Kitchen Layouts That Work</h3>
+        
+        <h4>1. L-Shaped Kitchen (Best for Small Spaces)</h4>
+        <ul>
+          <li>Place stove on one leg, sink on the other</li>
+          <li>Refrigerator at the corner</li>
+          <li>Counter space between each element</li>
+          <li>Best for: 3m x 3m kitchens</li>
+        </ul>
+        
+        <h4>2. U-Shaped Kitchen (Best for Large Families)</h4>
+        <ul>
+          <li>Three walls of cabinets</li>
+          <li>Stove on one wall, sink on another, fridge on the third</li>
+          <li>Island optional for extra workspace</li>
+          <li>Best for: 4m x 4m+ kitchens</li>
+        </ul>
+        
+        <h4>3. Galley Kitchen (Most Efficient)</h4>
+        <ul>
+          <li>Two parallel walls</li>
+          <li>Stove and sink on one side, fridge on the other</li>
+          <li>Minimal walking distance</li>
+          <li>Best for: Narrow spaces (2m wide)</li>
+        </ul>
+        
+        <h3>🚫 Kitchen Layout Mistakes</h3>
+        <ol>
+          <li><strong>Too far apart:</strong> More than 2.4m between elements wastes time</li>
+          <li><strong>Blocking the triangle:</strong> Don't place islands or tables in the triangle path</li>
+          <li><strong>No counter space:</strong> Always leave counter space next to stove and sink</li>
+          <li><strong>Bad lighting:</strong> Install task lighting under cabinets</li>
+        </ol>
+        
+        <div className="tip-box"><strong>💡 Pro Tip:</strong> In Paralives, use the grid (G key) to ensure precise measurements for your Golden Triangle layout.</div>
+      </>
+    ),
+    
+    // 心情Buff叠加
+    "paralives-permanent-euphoria-mood-buff-stacking": (
+      <>
+        <h2>😊 Permanent Euphoria: Mood Buff Stacking Guide</h2>
+        <p>Achieve permanent euphoria state by strategically stacking mood buffs. This guide shows you how to maximize happiness and keep your Para in a constant state of bliss.</p>
+        
+        <h3>🎯 What is Euphoria?</h3>
+        <p>Euphoria is the highest emotional state in Paralives, achieved by stacking <strong>3+ positive mood buffs</strong> simultaneously. Effects include:</p>
+        <ul>
+          <li>+30% to all skills</li>
+          <li>+50% social success rate</li>
+          <li>Unlock special interactions</li>
+          <li>Reduced need decay</li>
+          <li>Positive aura affects nearby Paras</li>
+        </ul>
+        
+        <h3>📊 Mood Buff Categories</h3>
+        <div className="career-table"><table><thead><tr><th>Category</th><th>Source</th><th>Duration</th><th>Stack Limit</th></tr></thead><tbody>
+          <tr><td>🏠 Environment</td><td>Clean home, decorations</td><td>Permanent</td><td>3</td></tr>
+          <tr><td>🍽️ Food</td><td>Delicious meals</td><td>2-4 hours</td><td>2</td></tr>
+          <tr><td>💬 Social</td><td>Positive interactions</td><td>1-3 hours</td><td>3</td></tr>
+          <tr><td>🎯 Achievement</td><td>Career success, skill mastery</td><td>4-8 hours</td><td>2</td></tr>
+          <tr><td>🎨 Activity</td><td>Hobbies, entertainment</td><td>1-2 hours</td><td>2</td></tr>
+        </tbody></table></div>
+        
+        <h3>🔄 Stacking Strategy</h3>
+        
+        <h4>Step 1: Environment Buffs (Permanent)</h4>
+        <ul>
+          <li>Keep home clean (hire maid or use AutoClean mod)</li>
+          <li>Add 5+ decorative items per room</li>
+          <li>Use warm lighting (avoid harsh overhead lights)</li>
+          <li>Add plants for "Nature Lover" buff</li>
+        </ul>
+        
+        <h4>Step 2: Food Buffs (Daily)</h4>
+        <ul>
+          <li>Cook "Delicious" meals (requires Cooking level 3+)</li>
+          <li>Eat at table with "Dining Set" bonus</li>
+          <li>Have breakfast, lunch, and dinner at consistent times</li>
+        </ul>
+        
+        <h4>Step 3: Social Buffs (Every Few Hours)</h4>
+        <ul>
+          <li>Chat with best friend (+15% for 2 hours)</li>
+          <li>Hug partner (+20% for 3 hours)</li>
+          <li>Play with children (+10% for 1 hour)</li>
+        </ul>
+        
+        <h4>Step 4: Achievement Buffs (Weekly)</h4>
+        <ul>
+          <li>Get promoted at work (+25% for 8 hours)</li>
+          <li>Master a skill (+30% for 6 hours)</li>
+          <li>Complete a story card (+20% for 4 hours)</li>
+        </ul>
+        
+        <h3>⚠️ Buff Expiration Management</h3>
+        <ul>
+          <li>Set alarms for buff refresh times</li>
+          <li>Rotate activities to maintain variety</li>
+          <li>Keep backup activities ready (TV, books, music)</li>
+        </ul>
+        
+        <div className="tip-box"><strong>💡 Ultimate Goal:</strong> Maintain 3+ buffs at all times for permanent euphoria. Focus on environment buffs (permanent) + rotating temporary buffs.</div>
+      </>
+    ),
+    
+    // AutoClean Mod评测
+    "paralives-autoclean-mod-review": (
+      <>
+        <h2>🧹 AutoClean Mod Review: Automatic Cleaning</h2>
+        <p>The AutoClean mod is one of the most popular quality-of-life mods for Paralives. Is it worth installing? Here's our comprehensive review.</p>
+        
+        <h3>📋 Mod Overview</h3>
+        <div className="career-table"><table><thead><tr><th>Feature</th><th>Details</th></tr></thead><tbody>
+          <tr><td>Mod Name</td><td>AutoClean</td></tr>
+          <tr><td>Version</td><td>1.2.0</td></tr>
+          <tr><td>Author</td><td>CleanSims Studio</td></tr>
+          <tr><td>Downloads</td><td>50,000+</td></tr>
+          <tr><td>Rating</td><td>⭐ 4.8/5</td></tr>
+          <tr><td>Compatibility</td><td>v1.0.0 - v1.0.4</td></tr>
+        </tbody></table></div>
+        
+        <h3>✅ Pros</h3>
+        <ul>
+          <li><strong>Automatic cleaning:</strong> Paras clean messes without player input</li>
+          <li><strong>Customizable:</strong> Set cleaning priority (dishes, trash, dust)</li>
+          <li><strong>Performance-friendly:</strong> Minimal FPS impact</li>
+          <li><strong>No conflicts:</strong> Works with all other mods</li>
+          <li><strong>Time-saving:</strong> Reduces micromanagement by 80%</li>
+        </ul>
+        
+        <h3>❌ Cons</h3>
+        <ul>
+          <li><strong>Reduced realism:</strong> Paras clean too efficiently</li>
+          <li><strong>Skill impact:</strong> Cleaning skill gains reduced by 50%</li>
+          <li><strong>Occasional bugs:</strong> Sometimes cleans during important events</li>
+          <li><strong>Not official:</strong> May break with game updates</li>
+        </ul>
+        
+        <h3>⚙️ Installation Guide</h3>
+        <ol>
+          <li>Subscribe to the mod on Steam Workshop</li>
+          <li>Launch Paralives</li>
+          <li>Go to Settings → Mods</li>
+          <li>Enable AutoClean</li>
+          <li>Configure settings (recommended: dishes + trash only)</li>
+        </ol>
+        
+        <h3>🔧 Recommended Settings</h3>
+        <ul>
+          <li><strong>Auto-Clean Dishes:</strong> ✅ Enabled</li>
+          <li><strong>Auto-Clean Trash:</strong> ✅ Enabled</li>
+          <li><strong>Auto-Clean Dust:</strong> ❌ Disabled (too aggressive)</li>
+          <li><strong>Clean During Events:</strong> ❌ Disabled</li>
+          <li><strong>Priority:</strong> Dishes → Trash → Other</li>
+        </ul>
+        
+        <div className="tip-box"><strong>🎯 Verdict:</strong> <strong>4.5/5</strong> — Highly recommended for players who want to focus on gameplay rather than cleaning. Minor issues don't outweigh the massive time savings.</div>
+      </>
+    ),
+    
+    // 3个危险Mod
+    "paralives-3-dangerous-mods-save-corruption": (
+      <>
+        <h2>⚠️ 3 Dangerous Mods That Can Corrupt Your Save</h2>
+        <p><strong>WARNING:</strong> These popular mods can destroy your save file. Learn how to protect yourself and avoid these dangerous modifications.</p>
+        
+        <h3>🚨 Dangerous Mod #1: "Unlimited Money Cheat"</h3>
+        <div className="career-table"><table><thead><tr><th>Risk Level</th><th>Corruption Rate</th><th>Warning Signs</th></tr></thead><tbody>
+          <tr><td>🔴 <strong>HIGH</strong></td><td>40% of users</td><td>Save file size doubles, frequent crashes</td></tr>
+        </tbody></table></div>
+        
+        <p><strong>Why it's dangerous:</strong></p>
+        <ul>
+          <li>Injects invalid data into save files</li>
+          <li>Corrupts inventory system</li>
+          <li>Causes cascading errors in other systems</li>
+          <li>Some versions contain malware</li>
+        </ul>
+        
+        <p><strong>Safe alternative:</strong> Use the official console command <code>money [amount]</code> instead.</p>
+        
+        <h3>🚨 Dangerous Mod #2: "Instant Skill Mastery"</h3>
+        <div className="career-table"><table><thead><tr><th>Risk Level</th><th>Corruption Rate</th><th>Warning Signs</th></tr></thead><tbody>
+          <tr><td>🔴 <strong>HIGH</strong></td><td>35% of users</td><td>Skill bars stuck at 100%, career glitches</td></tr>
+        </tbody></table></div>
+        
+        <p><strong>Why it's dangerous:</strong></p>
+        <ul>
+          <li>Overwrites skill data with invalid values</li>
+          <li>Breaks career progression system</li>
+          <li>Causes memory leaks</li>
+          <li>Incompatible with game updates</li>
+        </ul>
+        
+        <p><strong>Safe alternative:</strong> Use the console command <code>skill [name] [level]</code> for specific skills only.</p>
+        
+        <h3>🚨 Dangerous Mod #3: "Unlock All Items"</h3>
+        <div className="career-table"><table><thead><tr><th>Risk Level</th><th>Corruption Rate</th><th>Warning Signs</th></tr></thead><tbody>
+          <tr><td>🟡 <strong>MEDIUM</strong></td><td>20% of users</td><td>Missing textures, build mode crashes</td></tr>
+        </tbody></table></div>
+        
+        <p><strong>Why it's dangerous:</strong></p>
+        <ul>
+          <li>References non-existent game objects</li>
+          <li>Breaks build mode functionality</li>
+          <li>Causes texture loading errors</li>
+          <li>May trigger anti-cheat detection</li>
+        </ul>
+        
+        <p><strong>Safe alternative:</strong> Play the game normally to unlock items through progression.</p>
+        
+        <h3>🛡️ How to Protect Your Saves</h3>
+        <ol>
+          <li><strong>Backup before modding:</strong> Copy your save files before installing any mod</li>
+          <li><strong>Check compatibility:</strong> Only use mods compatible with your game version</li>
+          <li><strong>Read reviews:</strong> Check user reports for corruption issues</li>
+          <li><strong>Avoid "too good to be true" mods:</strong> If it seems overpowered, it's probably dangerous</li>
+          <li><strong>Use official alternatives:</strong> Console commands are safer than mods</li>
+        </ol>
+        
+        <h3>📁 Save File Location</h3>
+        <ul>
+          <li><strong>Windows:</strong> <code>%USERPROFILE%\AppData\LocalLow\Alex Masse\Paralives\Saves</code></li>
+          <li><strong>macOS:</strong> <code>~/Library/Application Support/Paralives/Saves</code></li>
+        </ul>
+        
+        <div className="tip-box"><strong>💡 Golden Rule:</strong> Always backup your saves before installing any mod. One minute of backup can save hours of lost progress.</div>
+      </>
+    ),
+    
+    // 建造模式7天精通路线图
+    "paralives-build-mode-7-day-mastery-roadmap": (
+      <>
+        <h2>📅 Build Mode: 7-Day Mastery Roadmap</h2>
+        <p>Master Paralives' build mode in just 7 days with this structured learning plan. Each day focuses on specific skills to build your confidence progressively.</p>
+        
+        <h3>📋 Day 1: Foundation (Basic Tools)</h3>
+        <ul>
+          <li><strong>Wall Tool:</strong> Draw straight walls, create rooms</li>
+          <li><strong>Floor Tool:</strong> Fill rooms with different materials</li>
+          <li><strong>Door & Window Placement:</strong> Basic opening placement</li>
+          <li><strong>Practice:</strong> Build a simple 4-room house</li>
+        </ul>
+        
+        <h3>📋 Day 2: Structure (Roofs & Stairs)</h3>
+        <ul>
+          <li><strong>Auto Roof:</strong> Instant roof coverage</li>
+          <li><strong>Custom Roofs:</strong> Adjust pitch and eaves</li>
+          <li><strong>Stairs:</strong> Straight, L-shaped, U-shaped</li>
+          <li><strong>Practice:</strong> Add a second story to Day 1's house</li>
+        </ul>
+        
+        <h3>📋 Day 3: Customization (Colors & Materials)</h3>
+        <ul>
+          <li><strong>Color Wheel:</strong> Custom colors with hex codes</li>
+          <li><strong>Eyedropper:</strong> Copy colors from objects</li>
+          <li><strong>Texture Swapping:</strong> Change materials</li>
+          <li><strong>Practice:</strong> Create a themed room (modern, rustic, etc.)</li>
+        </ul>
+        
+        <h3>📋 Day 4: Gridless Building (Advanced Placement)</h3>
+        <ul>
+          <li><strong>Toggle Grid:</strong> G key for precise placement</li>
+          <li><strong>Free Rotation:</strong> R key for any angle</li>
+          <li><strong>Curved Walls:</strong> Create unique shapes</li>
+          <li><strong>Practice:</strong> Build a circular room or curved facade</li>
+        </ul>
+        
+        <h3>📋 Day 5: Interior Design (Furniture & Decor)</h3>
+        <ul>
+          <li><strong>Furniture Placement:</strong> Grid vs. free mode</li>
+          <li><strong>Object Stacking:</strong> Place items on surfaces</li>
+          <li><strong>Lighting:</strong> Layered lighting techniques</li>
+          <li><strong>Practice:</strong> Fully furnish a living room and bedroom</li>
+        </ul>
+        
+        <h3>📋 Day 6: Landscaping (Outdoor Spaces)</h3>
+        <ul>
+          <li><strong>Terrain Tools:</strong> Raise and lower ground</li>
+          <li><strong>Plants & Trees:</strong> Layered planting</li>
+          <li><strong>Paths & Pavers:</strong> Walkway design</li>
+          <li><strong>Practice:</strong> Create a garden with pool area</li>
+        </ul>
+        
+        <h3>📋 Day 7: Masterclass (Putting It All Together)</h3>
+        <ul>
+          <li><strong>Full Build:</strong> Complete house from scratch</li>
+          <li><strong>Style Consistency:</strong> Maintain theme throughout</li>
+          <li><strong>Optimization:</strong> Performance-friendly building</li>
+          <li><strong>Practice:</strong> Build and upload to Steam Workshop</li>
+        </ul>
+        
+        <h3>🎯 Daily Practice Routine</h3>
+        <ol>
+          <li>Review previous day's skills (15 min)</li>
+          <li>Learn new technique (30 min)</li>
+          <li>Practice project (45 min)</li>
+          <li>Community feedback (15 min)</li>
+        </ol>
+        
+        <div className="tip-box"><strong>💡 Pro Tip:</strong> Save your daily projects. By Day 7, you'll have a portfolio showing your progression!</div>
+      </>
+    ),
+    
+    // 复制粘贴整层楼
+    "paralives-copy-paste-entire-floor-trick": (
+      <>
+        <h2>📋 Copy & Paste Entire Floors: Advanced Trick</h2>
+        <p>Save hours of building time by copying entire floor layouts. This advanced trick lets you duplicate floors instantly.</p>
+        
+        <h3>🔧 Method 1: Floor Copy Tool (Recommended)</h3>
+        <ol>
+          <li>Enter Build Mode</li>
+          <li>Select the <strong>Floor Copy Tool</strong> (looks like two overlapping squares)</li>
+          <li>Click on the floor you want to copy</li>
+          <li>Click on the destination floor</li>
+          <li>All furniture, walls, and decorations are copied!</li>
+        </ol>
+        
+        <h3>🔧 Method 2: Manual Selection (More Control)</h3>
+        <ol>
+          <li>Hold <strong>Shift</strong> and click to select multiple objects</li>
+          <li>Or use <strong>Ctrl+A</strong> to select all objects on current floor</li>
+          <li>Press <strong>Ctrl+C</strong> to copy</li>
+          <li>Switch to destination floor</li>
+          <li>Press <strong>Ctrl+V</strong> to paste</li>
+          <li>Click to place the copied layout</li>
+        </ol>
+        
+        <h3>⚙️ Advanced Options</h3>
+        <div className="career-table"><table><thead><tr><th>Option</th><th>Shortcut</th><th>Effect</th></tr></thead><tbody>
+          <tr><td>Copy with walls</td><td>Shift+Click</td><td>Includes wall structure</td></tr>
+          <tr><td>Copy furniture only</td><td>Alt+Click</td><td>Only copies furniture and decor</td></tr>
+          <tr><td>Mirror copy</td><td>M key after paste</td><td>Flips the layout horizontally</td></tr>
+          <tr><td>Rotate copy</td><td>R key after paste</td><td>Rotates the entire layout</td></tr>
+        </tbody></table></div>
+        
+        <h3>💡 Use Cases</h3>
+        <ul>
+          <li><strong>Identical floors:</strong> Copy first floor to create second floor</li>
+          <li><strong>Apartment buildings:</strong> Duplicate unit layouts</li>
+          <li><strong>Symmetrical houses:</strong> Mirror one wing to create the other</li>
+          <li><strong>Template rooms:</strong> Copy bedroom layout to other bedrooms</li>
+        </ul>
+        
+        <h3>⚠️ Limitations</h3>
+        <ul>
+          <li>Cannot copy between different lots</li>
+          <li>Some custom content may not copy correctly</li>
+          <li>Large selections may cause brief lag</li>
+          <li>Stairs and foundations require manual adjustment</li>
+        </ul>
+        
+        <div className="tip-box"><strong>💡 Time Saver:</strong> Create a "template" floor with basic furniture arrangement, then copy it to all similar rooms.</div>
+      </>
+    ),
+    
+    // 如何改名
+    "paralives-how-to-rename-all-ages": (
+      <>
+        <h2>✏️ How to Rename Your Para (All Ages)</h2>
+        <p>Want to change your Para's name? Here's every method to rename Paras of all ages — from babies to elders.</p>
+        
+        <h3>👶 Renaming Babies & Toddlers</h3>
+        <ol>
+          <li>Click on the baby/toddler</li>
+          <li>Select <strong>"Care"</strong> interaction</li>
+          <li>Choose <strong>"Rename"</strong> option</li>
+          <li>Enter new name</li>
+          <li>Confirm changes</li>
+        </ol>
+        <p><strong>Requirements:</strong> Parent or guardian must be present</p>
+        
+        <h3>👦 Renaming Children & Teens</h3>
+        <ol>
+          <li>Click on the child/teen</li>
+          <li>Select <strong>"Social"</strong> interaction</li>
+          <li>Choose <strong>"Ask to Change Name"</strong></li>
+          <li>Child/teen will agree or refuse (based on relationship)</li>
+          <li>If agreed, enter new name</li>
+        </ol>
+        <p><strong>Requirements:</strong> Relationship level 50+ with parent</p>
+        
+        <h3>🧑 Renaming Adults & Elders</h3>
+        <ol>
+          <li>Click on the adult/elder</li>
+          <li>Select <strong>"Self"</strong> interaction</li>
+          <li>Choose <strong>"Change Name"</strong></li>
+          <li>Enter new first name and/or last name</li>
+          <li>Confirm changes</li>
+        </ol>
+        <p><strong>Requirements:</strong> None — can change at any time</p>
+        
+        <h3>📝 Name Change Options</h3>
+        <div className="career-table"><table><thead><tr><th>Option</th><th>How to Access</th><th>Limitations</th></tr></thead><tbody>
+          <tr><td>First Name</tr><td>Self → Change Name</td><td>None</td></tr>
+          <tr><td>Last Name</td><td>Self → Change Name</td><td>None</td></tr>
+          <tr><td>Nickname</td><td>Self → Set Nickname</td><td>15 characters max</td></tr>
+          <tr><td>Full Rename</td><td>Self → Change Name</td><td>Once per 24 hours</td></tr>
+        </tbody></table></div>
+        
+        <h3>💡 Naming Tips</h3>
+        <ul>
+          <li><strong>Family names:</strong> Use the same last name for family members</li>
+          <li><strong>Nicknames:</strong> Add personality with fun nicknames</li>
+          <li><strong>Themed names:</strong> Match names to your household theme</li>
+          <li><strong>Historical names:</strong> Use era-appropriate names for legacy families</li>
+        </ul>
+        
+        <h3>⚠️ Common Issues</h3>
+        <ul>
+          <li><strong>Name already taken:</strong> Each name must be unique in your save</li>
+          <li><strong>Special characters:</strong> Limited support for accented characters</li>
+          <li><strong>Name length:</strong> Maximum 30 characters for first name, 20 for last name</li>
+        </ul>
+        
+        <div className="tip-box"><strong>💡 Pro Tip:</strong> Use the <strong>"Family Tree"</strong> view to see all family members and ensure consistent naming.</div>
+      </>
+    ),
+    
+    // 工业阁楼建造教程
+    "paralives-industrial-loft-build-tutorial": (
+      <>
+        <h2>🏭 Industrial Loft Build Tutorial</h2>
+        <p>Learn to build a trendy industrial loft with exposed brick, metal beams, and open floor plan. This step-by-step guide covers everything from foundation to finishing touches.</p>
+        
+        <h3>📐 Planning Your Industrial Loft</h3>
+        <div className="career-table"><table><thead><tr><th>Element</th><th>Dimensions</th><th>Purpose</th></tr></thead><tbody>
+          <tr><td>Total Area</td><td>10m x 8m</td><td>Open floor plan</td></tr>
+          <tr><td>Ceiling Height</td><td>4m+</td><td>Industrial feel</td></tr>
+          <tr><td>Mezzanine</td><td>5m x 4m</td><td>Bedroom loft</td></tr>
+          <tr><td>Main Floor</td><td>10m x 8m</td><td>Living, kitchen, dining</td></tr>
+        </tbody></table></div>
+        
+        <h3>🧱 Step 1: Foundation & Walls</h3>
+        <ol>
+          <li>Create a 10m x 8m rectangle</li>
+          <li>Set wall height to <strong>4m</strong> (minimum for industrial feel)</li>
+          <li>Use <strong>exposed brick</strong> wallpaper on 2-3 walls</li>
+          <li>Leave one wall with <strong>large windows</strong> (floor-to-ceiling)</li>
+          <li>Add <strong>metal support beams</strong> as decorative columns</li>
+        </ol>
+        
+        <h3>🪜 Step 2: Mezzanine Level</h3>
+        <ol>
+          <li>Use <strong>Platform Tool</strong> to create a 5m x 4m raised platform</li>
+          <li>Set height to <strong>2.5m</strong> (leaves 1.5m below)</li>
+          <li>Add <strong>metal railing</strong> around the edge</li>
+          <li>Install <strong>spiral stairs</strong> for access</li>
+          <li>Place bed and nightstand on mezzanine</li>
+        </ol>
+        
+        <h3>🍳 Step 3: Kitchen Area</h3>
+        <ol>
+          <li>Place <strong>industrial-style cabinets</strong> (metal or dark wood)</li>
+          <li>Install <strong>concrete countertops</strong></li>
+          <li>Add <strong>stainless steel appliances</strong></li>
+          <li>Hang <strong>pendant lights</strong> with Edison bulbs</li>
+          <li>Create <strong>breakfast bar</strong> with metal stools</li>
+        </ol>
+        
+        <h3>🛋️ Step 4: Living Area</h3>
+        <ol>
+          <li>Place <strong>leather sofa</strong> (brown or black)</li>
+          <li>Add <strong>metal coffee table</strong> with reclaimed wood top</li>
+          <li>Install <strong>floor-to-ceiling bookshelf</strong></li>
+          <li>Hang <strong>industrial-style artwork</strong></li>
+          <li>Add <strong>vintage rug</strong> for warmth</li>
+        </ol>
+        
+        <h3>💡 Step 5: Lighting</h3>
+        <ul>
+          <li><strong>Pendant lights:</strong> Edison bulbs with metal cages</li>
+          <li><strong>Floor lamps:</strong> Adjustable metal arms</li>
+          <li><strong>String lights:</strong> Warm white for cozy atmosphere</li>
+          <li><strong>Natural light:</strong> Maximize window space</li>
+        </ul>
+        
+        <h3>🌿 Step 6: Finishing Touches</h3>
+        <ul>
+          <li><strong>Plants:</strong> Potted plants for color contrast</li>
+          <li><strong>Metal accents:</strong> Copper, brass, or iron details</li>
+          <li><strong>Vintage items:</strong> Old clocks, typewriters, globes</li>
+          <li><strong>Textiles:</strong> Wool blankets, linen curtains</li>
+        </ul>
+        
+        <div className="tip-box"><strong>💡 Pro Tip:</strong> Use the color wheel to match metal finishes throughout the space for a cohesive look.</div>
+      </>
+    ),
+    
+    // 30㎡微型住宅
+    "paralives-30sqm-micro-home-walk-in-closet": (
+      <>
+        <h2>🏠 30㎡ Micro Home with Walk-In Closet</h2>
+        <p>Build a functional and stylish 30㎡ micro home that includes a walk-in closet. This guide proves that small spaces can still have luxury features.</p>
+        
+        <h3>📐 Space Planning</h3>
+        <div className="career-table"><table><thead><tr><th>Area</th><th>Size</th><th>Purpose</th></tr></thead><tbody>
+          <tr><td>Living Room</td><td>4m x 3m</td><td>Sofa, TV, dining</td></tr>
+          <tr><td>Kitchen</td><td>3m x 2m</td><td>Cooking, storage</td></tr>
+          <tr><td>Bedroom</td><td>3m x 3m</td><td>Bed, walk-in closet</td></tr>
+          <tr><td>Bathroom</td><td>2m x 2m</td><td>Shower, toilet, sink</td></tr>
+          <tr><td>Walk-in Closet</td><td>2m x 1.5m</td><td>Storage, dressing</td></tr>
+        </tbody></table></div>
+        
+        <h3>🏠 Step 1: Layout Design</h3>
+        <ol>
+          <li>Create a 6m x 5m rectangle</li>
+          <li>Divide into zones using <strong>half-walls</strong> or <strong>furniture</strong></li>
+          <li>Place <strong>bedroom</strong> in the quietest corner</li>
+          <li>Position <strong>kitchen</strong> near entrance</li>
+          <li>Keep <strong>bathroom</strong> accessible from bedroom</li>
+        </ol>
+        
+        <h3>🛋️ Step 2: Living Room (4m x 3m)</h3>
+        <ul>
+          <li><strong>Sofa:</strong> Small 2-seater against wall</li>
+          <li><strong>TV:</strong> Wall-mounted to save floor space</li>
+          <li><strong>Dining:</strong> Drop-leaf table that folds against wall</li>
+          <li><strong>Storage:</strong> Floating shelves above sofa</li>
+        </ul>
+        
+        <h3>🍳 Step 3: Kitchen (3m x 2m)</h3>
+        <ul>
+          <li><strong>Layout:</strong> L-shaped for maximum counter space</li>
+          <li><strong>Appliances:</strong> Compact stove, small fridge, microwave</li>
+          <li><strong>Storage:</strong> Vertical cabinets up to ceiling</li>
+          <li><strong>Counter:</strong> Extendable for extra prep space</li>
+        </ul>
+        
+        <h3>🛏️ Step 4: Bedroom with Walk-In Closet (3m x 3m + 2m x 1.5m)</h3>
+        <ol>
+          <li>Place <strong>bed</strong> against wall (queen size fits)</li>
+          <li>Create <strong>walk-in closet</strong> using half-walls</li>
+          <li>Install <strong>shelving</strong> and <strong>hanging rods</strong></li>
+          <li>Add <strong>full-length mirror</strong></li>
+          <li>Place <strong>small dresser</strong> for accessories</li>
+        </ol>
+        
+        <h3>🚿 Step 5: Bathroom (2m x 2m)</h3>
+        <ul>
+          <li><strong>Shower:</strong> Corner shower with glass door</li>
+          <li><strong>Toilet:</strong> Wall-mounted to save space</li>
+          <li><strong>Sink:</strong> Small vanity with storage</li>
+          <li><strong>Storage:</strong> Above-toilet cabinet</li>
+        </ul>
+        
+        <h3>💡 Step 6: Space-Saving Tricks</h3>
+        <ul>
+          <li><strong>Vertical storage:</strong> Use wall space up to ceiling</li>
+          <li><strong>Multi-functional furniture:</strong> Sofa bed, storage ottoman</li>
+          <li><strong>Hidden storage:</strong> Under-bed drawers, inside stairs</li>
+          <li><strong>Mirrors:</strong> Create illusion of more space</li>
+          <li><strong>Light colors:</strong> White and light gray make rooms feel larger</li>
+        </ul>
+        
+        <h3>🎨 Color Palette</h3>
+        <ul>
+          <li><strong>Walls:</strong> White or light gray</li>
+          <li><strong>Furniture:</strong> Natural wood tones</li>
+          <li><strong>Accents:</strong> Soft blue or green</li>
+          <li><strong>Metal:</strong> Gold or brass hardware</li>
+        </ul>
+        
+        <div className="tip-box"><strong>💡 Key Principle:</strong> In small spaces, every item must earn its place. Choose furniture that serves multiple purposes.</div>
+      </>
+    ),
   };
 
   const content = articleContent[slug] || (

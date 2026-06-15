@@ -483,6 +483,164 @@ export const articles: Article[] = [
     publishedAt: "2026-05-28",
     updatedAt: "2026-05-28",
   },
+
+  // ===== 6月新增攻略 (对标竞争对手) =====
+  
+  // 补丁速报
+  {
+    slug: "paralives-v104-patch-notes",
+    title: "v1.0.4 Patch Notes (12 Crash Fixes)",
+    description: "Latest update fixes 12 crash bugs, improves stability, and more.",
+    category: "getting-started",
+    icon: "🔧",
+    readTime: "4 min read",
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+  },
+  
+  // 开发动态
+  {
+    slug: "paralives-basement-update-september-beta",
+    title: "Basement Update & September Beta Plan",
+    description: "Dev roadmap reveals basements coming in September beta — what to expect.",
+    category: "getting-started",
+    icon: "🗺️",
+    readTime: "5 min read",
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+  },
+  
+  // 彩蛋攻略
+  {
+    slug: "paralives-15-hidden-interactions-easter-eggs",
+    title: "15 Hidden Interactions & Easter Eggs",
+    description: "Secret interactions 90% of players miss — developer cameos, mysterious NPCs, and more.",
+    category: "achievements-secrets",
+    icon: "🥚",
+    readTime: "8 min read",
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+  },
+  
+  // 攻略 - 职业
+  {
+    slug: "paralives-career-tier-list-8-jobs-ranked",
+    title: "Career Tier List: All 8 Jobs Ranked",
+    description: "Best careers for money, skills, and work-life balance — complete tier ranking.",
+    category: "careers",
+    icon: "📊",
+    readTime: "9 min read",
+    publishedAt: "2026-06-03",
+    updatedAt: "2026-06-03",
+  },
+  
+  // 建造指南
+  {
+    slug: "paralives-kitchen-golden-triangle-layout",
+    title: "Kitchen Layout: The Golden Triangle Guide",
+    description: "Optimize your kitchen workflow with the golden triangle principle — stove, sink, fridge placement.",
+    category: "build-mode",
+    icon: "🍳",
+    readTime: "7 min read",
+    publishedAt: "2026-06-04",
+    updatedAt: "2026-06-04",
+  },
+  
+  // 机制攻略
+  {
+    slug: "paralives-permanent-euphoria-mood-buff-stacking",
+    title: "Permanent Euphoria: Mood Buff Stacking Guide",
+    description: "Stack mood buffs to achieve permanent euphoria state — maximize happiness.",
+    category: "characters",
+    icon: "😊",
+    readTime: "8 min read",
+    publishedAt: "2026-06-05",
+    updatedAt: "2026-06-05",
+  },
+  
+  // Mod 评测
+  {
+    slug: "paralives-autoclean-mod-review",
+    title: "AutoClean Mod Review: Automatic Cleaning",
+    description: "Is the AutoClean mod worth it? Full review with pros, cons, and installation guide.",
+    category: "mods",
+    icon: "🧹",
+    readTime: "6 min read",
+    publishedAt: "2026-06-06",
+    updatedAt: "2026-06-06",
+  },
+  
+  // Mod 警告
+  {
+    slug: "paralives-3-dangerous-mods-save-corruption",
+    title: "3 Dangerous Mods That Can Corrupt Your Save",
+    description: "WARNING: These popular mods can destroy your save file — how to protect yourself.",
+    category: "mods",
+    icon: "⚠️",
+    readTime: "5 min read",
+    publishedAt: "2026-06-07",
+    updatedAt: "2026-06-07",
+  },
+  
+  // 建造教程
+  {
+    slug: "paralives-build-mode-7-day-mastery-roadmap",
+    title: "Build Mode: 7-Day Mastery Roadmap",
+    description: "Learn build mode from zero to hero in 7 days — structured daily learning plan.",
+    category: "build-mode",
+    icon: "📅",
+    readTime: "12 min read",
+    publishedAt: "2026-06-08",
+    updatedAt: "2026-06-08",
+  },
+  
+  // 进阶教程
+  {
+    slug: "paralives-copy-paste-entire-floor-trick",
+    title: "Copy & Paste Entire Floors: Advanced Trick",
+    description: "Time-saving trick to copy entire floor layouts — build faster than ever.",
+    category: "build-mode",
+    icon: "📋",
+    readTime: "5 min read",
+    publishedAt: "2026-06-09",
+    updatedAt: "2026-06-09",
+  },
+  
+  // 指南
+  {
+    slug: "paralives-how-to-rename-all-ages",
+    title: "How to Rename Your Para (All Ages)",
+    description: "Complete rename guide for babies, teens, adults, and elders — every method explained.",
+    category: "characters",
+    icon: "✏️",
+    readTime: "4 min read",
+    publishedAt: "2026-06-10",
+    updatedAt: "2026-06-10",
+  },
+  
+  // 建造教程
+  {
+    slug: "paralives-industrial-loft-build-tutorial",
+    title: "Industrial Loft Build Tutorial",
+    description: "Step-by-step guide to building a trendy industrial loft — exposed brick, metal beams, open floor plan.",
+    category: "build-mode",
+    icon: "🏭",
+    readTime: "10 min read",
+    publishedAt: "2026-06-11",
+    updatedAt: "2026-06-11",
+  },
+  
+  // 建造教程
+  {
+    slug: "paralives-30sqm-micro-home-walk-in-closet",
+    title: "30㎡ Micro Home with Walk-In Closet",
+    description: "Tiny home, big style — build a functional 30㎡ micro home with a walk-in closet.",
+    category: "build-mode",
+    icon: "🏠",
+    readTime: "9 min read",
+    publishedAt: "2026-06-12",
+    updatedAt: "2026-06-12",
+  },
 ];
 
 export function getArticlesByCategory(categoryId: string): Article[] {
