@@ -2834,7 +2834,7 @@ export default async function ArticlePage({
         </ol>
         
         <h3>🏠 Build Mode Secrets</h3>
-        <ol start="6">
+        <ol start={6}>
           <li><strong>Hidden Wallpaper:</strong> In the wallpaper menu, scroll to the very end — there's a secret "Developer Special" pattern</li>
           <li><strong>Secret Furniture:</strong> Type "devmode" in the search bar to unlock developer-only furniture</li>
           <li><strong>Color Code:</strong> Enter hex code #FF6B6B for a special "Developer Red" color</li>
@@ -2843,7 +2843,7 @@ export default async function ArticlePage({
         </ol>
         
         <h3>🎮 Gameplay Secrets</h3>
-        <ol start="11">
+        <ol start={11}>
           <li><strong>Mysterious NPC:</strong> At 3 AM, a mysterious figure appears in the park — interact to unlock a secret quest</li>
           <li><strong>Hidden Career:</strong> Reach level 10 in both Logic and Creativity — unlocks the "Game Developer" career</li>
           <li><strong>Secret Recipe:</strong> Cook with exactly 3 different ingredients — chance to create "Grandma's Secret Recipe"</li>
